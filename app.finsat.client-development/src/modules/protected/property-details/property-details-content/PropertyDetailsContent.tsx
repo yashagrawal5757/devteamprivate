@@ -20,7 +20,10 @@ import usePropertyEditor from '../hooks/property-editor/usePropertyEditor';
 import SamModelMap from './sam-model-map/SAMModelMap';
 import { SegmentationContextProvider } from './sam-model-map/contexts/segmentation/useSegmentationContext';
 import usePropertyEditorManager from '../hooks/property-editor-manager/usePropertyEditorManager';
-import { PropertyEditorDetectionMode, PropertyEditorModelMode } from '../state/property-editor/PropertyEditorDefaults';
+import {
+    PropertyEditorDetectionMode,
+    PropertyEditorModelMode
+} from '../state/property-editor/PropertyEditorDefaults';
 import useWindowDimensions from '../hooks/window-dimensions/useWindowDimensions';
 import useToggle from '@hooks/useToggle';
 import { set } from 'lodash';
@@ -30,7 +33,12 @@ const PropertyDetailsContent = () => {
     const viewerRef = useRef<CesiumComponentRef<CesiumViewer> | null>(null);
 
     const { id } = useParams();
-    const { property, fetchProperty, getPropertyPropsFromId, fetchSpatialFeatureProperty } = useProperty();
+    const {
+        property,
+        fetchProperty,
+        getPropertyPropsFromId,
+        fetchSpatialFeatureProperty
+    } = useProperty();
 
     const { fetchVariations, fetchVariationById } = useVariations();
     const { isAddVariationActive, addVariationToggle, setAddVariationToggle } =
@@ -45,11 +53,16 @@ const PropertyDetailsContent = () => {
     const { onGenerateReport } = useCalculatorReport();
 
     const { getMapSnapshotAsBase64 } = usePropertyPolygon();
-    const { base64Image, setBase64Image, setBoundingBox } = usePropertyEditorManager();
-    const { dimensions: screenDimensions, handleResize } = useWindowDimensions();
+    const { base64Image, setBase64Image, setBoundingBox } =
+        usePropertyEditorManager();
+    const { dimensions: screenDimensions, handleResize } =
+        useWindowDimensions();
     const { setInitialValue, setDetectionMode } = usePropertyEditor();
 
-    const { isActive: displayAddToWatchlistNodge, setToggle: setDisplayAddToWatchlistNodge } = useToggle();
+    const {
+        isActive: displayAddToWatchlistNodge,
+        setToggle: setDisplayAddToWatchlistNodge
+    } = useToggle();
 
     const { propertyEditor } = usePropertyEditor();
 
@@ -60,7 +73,9 @@ const PropertyDetailsContent = () => {
             return;
         }
 
-        const [propertyTypePrefix, propertyId] = getPropertyPropsFromId(`${id}`);
+        const [propertyTypePrefix, propertyId] = getPropertyPropsFromId(
+            `${id}`
+        );
 
         if (propertyTypePrefix === PropertyTypePrefix.INVALID) {
             return;
@@ -68,8 +83,7 @@ const PropertyDetailsContent = () => {
 
         if (propertyTypePrefix === PropertyTypePrefix.BUILDING) {
             fetchProperty(propertyId);
-        }
-        else {
+        } else {
             fetchSpatialFeatureProperty(propertyId);
         }
 
@@ -83,7 +97,7 @@ const PropertyDetailsContent = () => {
             const mapElement = document.getElementById('map-section');
 
             if (mapElement) {
-                handleResize() // Element found, log or perform any actions
+                handleResize(); // Element found, log or perform any actions
                 observer.disconnect(); // Stop observing once the element is found
             }
         });
@@ -110,7 +124,6 @@ const PropertyDetailsContent = () => {
         fetchVariationById(id, variationId);
     }, [location.state]);
 
-
     useEffect(() => {
         if (viewerRef === null) {
             return;
@@ -124,59 +137,75 @@ const PropertyDetailsContent = () => {
             return;
         }
 
-        viewerRef.current.cesiumElement.scene.globe.tileLoadProgressEvent.addEventListener((progress) => {
-            if (progress !== 0) {
-                return;
+        viewerRef.current.cesiumElement.scene.globe.tileLoadProgressEvent.addEventListener(
+            (progress) => {
+                if (progress !== 0) {
+                    return;
+                }
+
+                if (viewerRef === null) {
+                    return;
+                }
+
+                if (viewerRef.current === null) {
+                    return;
+                }
+
+                if (viewerRef.current.cesiumElement === undefined) {
+                    return;
+                }
+
+                const scene = viewerRef.current.cesiumElement.scene;
+                const camera = scene.camera;
+                const ellipsoid = scene.globe.ellipsoid;
+
+                const rectangle = camera.computeViewRectangle(ellipsoid);
+
+                if (rectangle) {
+                    const westLongitude = rectangle.west * (180 / Math.PI);
+                    const southLatitude = rectangle.south * (180 / Math.PI);
+                    const eastLongitude = rectangle.east * (180 / Math.PI);
+                    const northLatitude = rectangle.north * (180 / Math.PI);
+
+                    setBoundingBox({
+                        northeast: {
+                            latitude: northLatitude,
+                            longitude: eastLongitude
+                        },
+                        northwest: {
+                            latitude: northLatitude,
+                            longitude: westLongitude
+                        },
+                        southeast: {
+                            latitude: southLatitude,
+                            longitude: eastLongitude
+                        },
+                        southwest: {
+                            latitude: southLatitude,
+                            longitude: westLongitude
+                        }
+                    });
+                }
+
+                getMapSnapshotAsBase64(viewerRef, true, false)
+                    .then(([meta, base64]) =>
+                        setBase64Image(`${meta},${base64}`)
+                    )
+                    .catch((error) => console.error(error));
+
+                const { variationId } = location.state || {};
+
+                if (variationId !== undefined) {
+                    setInitialValue(false);
+                    return;
+                }
+
+                setTimeout(() => {
+                    setInitialValue(false);
+                    setDetectionMode(PropertyEditorDetectionMode.HOVER);
+                }, 1200);
             }
-
-            if (viewerRef === null) {
-                return;
-            }
-
-            if (viewerRef.current === null) {
-                return;
-            }
-
-            if (viewerRef.current.cesiumElement === undefined) {
-                return;
-            }
-
-            const scene = viewerRef.current.cesiumElement.scene;
-            const camera = scene.camera;
-            const ellipsoid = scene.globe.ellipsoid;
-
-            const rectangle = camera.computeViewRectangle(ellipsoid);
-
-            if (rectangle) {
-                const westLongitude = rectangle.west * (180 / Math.PI);
-                const southLatitude = rectangle.south * (180 / Math.PI);
-                const eastLongitude = rectangle.east * (180 / Math.PI);
-                const northLatitude = rectangle.north * (180 / Math.PI);
-
-                setBoundingBox({
-                    northeast: { latitude: northLatitude, longitude: eastLongitude },
-                    northwest: { latitude: northLatitude, longitude: westLongitude },
-                    southeast: { latitude: southLatitude, longitude: eastLongitude },
-                    southwest: { latitude: southLatitude, longitude: westLongitude },
-                });
-            }
-
-            getMapSnapshotAsBase64(viewerRef, true, false)
-                .then(([meta, base64]) => setBase64Image(`${meta},${base64}`))
-                .catch((error) => console.error(error));
-
-            const { variationId } = location.state || {};
-
-            if (variationId !== undefined) {
-                setInitialValue(false);
-                return;
-            }
-
-            setTimeout(() => {
-                setInitialValue(false);
-                setDetectionMode(PropertyEditorDetectionMode.HOVER);
-            }, 1200)
-        });
+        );
     }, [viewerRef.current?.cesiumElement, screenDimensions]);
 
     useEffect(() => {
@@ -240,13 +269,14 @@ const PropertyDetailsContent = () => {
                                     onClick={addVariationToggle}
                                     text="+ Add to Watchlist"
                                 />
-                                {
-                                    !location?.state?.variationId && (
-                                        <div className='absolute w-48 p-2 transform transition-transform duration-300 ease-in-out hover:translate-x-2 bg-blue-400 text-white rounded' style={{ left: '-205px', top: '-7px' }}>
-                                            <AddToWatchlistNodge />
-                                        </div>
-                                    )
-                                }
+                                {!location?.state?.variationId && (
+                                    <div
+                                        className="absolute w-48 p-2 transform transition-transform duration-300 ease-in-out hover:translate-x-2 bg-blue-400 text-white rounded"
+                                        style={{ left: '-205px', top: '-7px' }}
+                                    >
+                                        <AddToWatchlistNodge />
+                                    </div>
+                                )}
                             </div>
                         </>
                     )}
@@ -260,7 +290,6 @@ const PropertyDetailsContent = () => {
                                 }}
                                 text="+ Add to Watchlist"
                             />
-
                         </div>
                     )}
                 </div>
@@ -270,16 +299,17 @@ const PropertyDetailsContent = () => {
                     <div className="flex flex-col h-full">
                         <PropertyInfo />
                         <SegmentationContextProvider>
-                            {
-                                propertyEditor.propertyEditorModelMode === PropertyEditorModelMode.MANUAL && (
-                                    <PropertyMap viewerRef={viewerRef} />
-                                )
-                            }
-                            {
-                                propertyEditor.propertyEditorModelMode === PropertyEditorModelMode.SAM && (
-                                    <SamModelMap dimensions={screenDimensions} />
-                                )
-                            }
+                            {propertyEditor.propertyEditorModelMode ===
+                                PropertyEditorModelMode.MANUAL && (
+                                <PropertyMap viewerRef={viewerRef} />
+                            )}
+                            {propertyEditor.propertyEditorModelMode ===
+                                PropertyEditorModelMode.SAM && (
+                                <SamModelMap
+                                    dimensions={screenDimensions}
+                                    viewerRef={viewerRef}
+                                />
+                            )}
                         </SegmentationContextProvider>
                     </div>
                 </div>
@@ -290,7 +320,11 @@ const PropertyDetailsContent = () => {
             <ExistingWatchlistsContextProvider>
                 <AddPropertyToWatchlistModal />
                 <AddVariationModal
-                    id={property.osmId === '' ? `${property.id}` : property.osmId}
+                    id={
+                        property.osmId === ''
+                            ? `${property.id}`
+                            : property.osmId
+                    }
                     isOpen={isAddVariationActive}
                     onClose={() => setAddVariationToggle(false)}
                     base64Image={base64Image}

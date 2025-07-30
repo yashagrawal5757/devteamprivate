@@ -1,25 +1,46 @@
-import React, { useMemo } from 'react'
+import React, { useMemo } from 'react';
 import usePropertyEditor from 'modules/protected/property-details/hooks/property-editor/usePropertyEditor';
 import usePropertyFootprint from 'modules/protected/property-details/hooks/property-footprint/usePropertyFootprint';
-import { PolygonAlignmentMode, PolygonOperationMode, PropertyEditorDetectionMode, PropertyEditorMode, PropertyMapMode } from 'modules/protected/property-details/state/property-editor/PropertyEditorDefaults';
+import {
+    PolygonAlignmentMode,
+    PolygonOperationMode,
+    PropertyEditorDetectionMode,
+    PropertyEditorMode,
+    PropertyMapMode
+} from 'modules/protected/property-details/state/property-editor/PropertyEditorDefaults';
 import { GoDotFill } from 'react-icons/go';
 import { GrTrash, GrUndo } from 'react-icons/gr';
 import { FaChevronDown } from 'react-icons/fa';
 import useSamEditorActions from './hooks/useSamEditorActions';
 import usePropertyPolygon from '../../../property-map/hooks/usePropertyPolygon';
+import { CesiumComponentRef } from 'resium';
+import { Viewer as CesiumViewer } from 'cesium';
 import usePropertyEditorActionsStack from 'modules/protected/property-details/hooks/property-editor/usePropertyEditorActionsStack';
 import usePropertyEditorManager from 'modules/protected/property-details/hooks/property-editor-manager/usePropertyEditorManager';
 
 type SAMEditorActionsProps = {
-    onResetButtonClick: () => void
-}
+    onResetButtonClick: () => void;
+    viewerRef: React.RefObject<CesiumComponentRef<CesiumViewer> | null>;
+};
 
-const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
-    const { propertyEditor, setOperationMode, setAlignmentMode, setDetectionMode, setEditorMode, handleUndo } = usePropertyEditor();
+const SAMEditorActions = ({
+    onResetButtonClick,
+    viewerRef
+}: SAMEditorActionsProps) => {
+    const {
+        propertyEditor,
+        setOperationMode,
+        setAlignmentMode,
+        setDetectionMode,
+        setEditorMode,
+        handleUndo
+    } = usePropertyEditor();
     const { footprint } = usePropertyFootprint();
-    const { detectObstructionByImage } = usePropertyPolygon();
+    const { detectObstructionByImage, getMapSnapshotAsBase64 } =
+        usePropertyPolygon();
     const { actionsStack } = usePropertyEditorActionsStack();
-    const { base64Image, boundingBox } = usePropertyEditorManager();
+    const { base64Image, boundingBox, setBase64Image, setBoundingBox } =
+        usePropertyEditorManager();
 
     const {
         isPolygonDetectionDropdownOpen,
@@ -46,12 +67,15 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
     );
 
     const isOperationAddMode = useMemo(
-        () => propertyEditor.polygonOperationMode === PolygonOperationMode.ADD_POLYGON,
+        () =>
+            propertyEditor.polygonOperationMode ===
+            PolygonOperationMode.ADD_POLYGON,
         [propertyEditor]
     );
 
     const isDetectionHoverMode = useMemo(
-        () => propertyEditor.detectionMode === PropertyEditorDetectionMode.HOVER,
+        () =>
+            propertyEditor.detectionMode === PropertyEditorDetectionMode.HOVER,
         [propertyEditor]
     );
 
@@ -72,10 +96,9 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
 
     return (
         <>
-            {
-                isEditorMode && hasFootprint && (
-                    <>
-                        {/* {
+            {isEditorMode && hasFootprint && (
+                <>
+                    {/* {
 							isParameterEditorMode && (
 								<div className="flex flex-row bg-white rounded mt-2 text-sm border-white border justify-between">
 									<div
@@ -88,7 +111,7 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
 								</div>
 							)
 						} */}
-                        {/* {
+                    {/* {
 							!isParameterEditorMode && (
 								<div className="flex flex-row bg-white rounded mt-2 text-sm border-white border justify-between">
 									<div
@@ -100,39 +123,38 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
 								</div>
 							)
 						} */}
-                        <div className="flex flex-row bg-white py-1 rounded mt-2 text-sm justify-between">
-                            <div
-                                className={`flex flex-row w-1/2 items-center justify-center cursor-pointer text-gray-700 mx-1.5 py-1.5 rounded`}
-                                onClick={() =>
-                                    !isParameterEditorMode &&
-                                    setEditorMode(PropertyEditorMode.SHAPE)
-                                }
-                                style={{
-                                    backgroundColor: isParameterEditorMode
-                                        ? "rgba(54,234,197, 0.8 )"
-                                        : undefined
-                                }}
-                            >
-                                <GoDotFill />
-                                <p className="text-xs ml-0.5 px-0.5">Perimeter</p>
-                            </div>
-                            <div className="w-[1px] h-[25px] bg-gray-300"></div>
-                            <div
-                                className={`flex flex-row w-1/2 items-center justify-center cursor-pointer text-red-500 mx-1.5 py-1 rounded ${!isParameterEditorMode ? 'bg-red-200' : ''}`}
-                                onClick={() =>
-                                    isParameterEditorMode &&
-                                    setEditorMode(PropertyEditorMode.OBSTICLE)
-                                }
-                            >
-                                <GoDotFill />
-                                <p className="text-xs ml-0.5 px-0.5">
-                                    Obstructions
-                                </p>
-                            </div>
+                    <div className="flex flex-row bg-white py-1 rounded mt-2 text-sm justify-between">
+                        <div
+                            className={`flex flex-row w-1/2 items-center justify-center cursor-pointer text-gray-700 mx-1.5 py-1.5 rounded`}
+                            onClick={() =>
+                                !isParameterEditorMode &&
+                                setEditorMode(PropertyEditorMode.SHAPE)
+                            }
+                            style={{
+                                backgroundColor: isParameterEditorMode
+                                    ? 'rgba(54,234,197, 0.8 )'
+                                    : undefined
+                            }}
+                        >
+                            <GoDotFill />
+                            <p className="text-xs ml-0.5 px-0.5">Perimeter</p>
                         </div>
-                    </>
-                )
-            }
+                        <div className="w-[1px] h-[25px] bg-gray-300"></div>
+                        <div
+                            className={`flex flex-row w-1/2 items-center justify-center cursor-pointer text-red-500 mx-1.5 py-1 rounded ${!isParameterEditorMode ? 'bg-red-200' : ''}`}
+                            onClick={() =>
+                                isParameterEditorMode &&
+                                setEditorMode(PropertyEditorMode.OBSTICLE)
+                            }
+                        >
+                            <GoDotFill />
+                            <p className="text-xs ml-0.5 px-0.5">
+                                Obstructions
+                            </p>
+                        </div>
+                    </div>
+                </>
+            )}
             <div className="flex flex-row bg-white py-1 w-[220px] rounded mt-2 justify-between">
                 <div className="flex flex-row w-1/4 justify-center items-center relative">
                     <div className="rounded px-1 py-0.5 cursor-pointer">
@@ -185,9 +207,7 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
                                         alt="Tap icon"
                                         className="w-4 h-4 ml-2 my-2"
                                     />
-                                    <p className="px-2 my-2">
-                                        Hover over roof
-                                    </p>
+                                    <p className="px-2 my-2">Hover over roof</p>
                                 </div>
                                 <hr />
                                 <div
@@ -204,34 +224,113 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
                                         alt="Tap icon"
                                         className="w-4 h-4 ml-2 my-2"
                                     />
-                                    <p className="px-2 my-2">
-                                        Draw a box
-                                    </p>
+                                    <p className="px-2 my-2">Draw a box</p>
                                 </div>
-                                {!isParameterEditorMode && boundingBox !== undefined && (
-                                    <>
-                                        <hr />
-                                        <div
-                                            className={`flex flex-row cursor-pointer ${isAiDetectionMode ? 'pointer-events-none opacity-60 bg-gray-200' : ''}`}
-                                            onClick={() => {
-                                                detectObstructionByImage(base64Image.replace("data:image/png;base64,", ""), boundingBox!);
-                                                togglePolygonDetectionDropdown();
-                                                setDetectionMode(
-                                                    PropertyEditorDetectionMode.AI
-                                                );
-                                            }}
-                                        >
-                                            <img
-                                                src="/ai.svg"
-                                                alt="AI icon"
-                                                className="w-4 h-4 ml-2 my-2"
-                                            />
-                                            <p className="px-2 my-2 pt-0.5">
-                                                Detect Obstructions
-                                            </p>
-                                        </div>
-                                    </>
-                                )}
+                                {!isParameterEditorMode &&
+                                    boundingBox !== undefined && (
+                                        <>
+                                            <hr />
+                                            <div
+                                                className={`flex flex-row cursor-pointer ${isAiDetectionMode ? 'pointer-events-none opacity-60 bg-gray-200' : ''}`}
+                                                onClick={async () => {
+                                                    if (
+                                                        !viewerRef.current ||
+                                                        !viewerRef.current
+                                                            .cesiumElement
+                                                    ) {
+                                                        return;
+                                                    }
+
+                                                    const scene =
+                                                        viewerRef.current
+                                                            .cesiumElement
+                                                            .scene;
+                                                    const camera = scene.camera;
+                                                    const ellipsoid =
+                                                        scene.globe.ellipsoid;
+                                                    const rectangle =
+                                                        camera.computeViewRectangle(
+                                                            ellipsoid
+                                                        );
+
+                                                    if (!rectangle) {
+                                                        return;
+                                                    }
+
+                                                    const westLongitude =
+                                                        rectangle.west *
+                                                        (180 / Math.PI);
+                                                    const southLatitude =
+                                                        rectangle.south *
+                                                        (180 / Math.PI);
+                                                    const eastLongitude =
+                                                        rectangle.east *
+                                                        (180 / Math.PI);
+                                                    const northLatitude =
+                                                        rectangle.north *
+                                                        (180 / Math.PI);
+
+                                                    const newBoundingBox = {
+                                                        northeast: {
+                                                            latitude:
+                                                                northLatitude,
+                                                            longitude:
+                                                                eastLongitude
+                                                        },
+                                                        northwest: {
+                                                            latitude:
+                                                                northLatitude,
+                                                            longitude:
+                                                                westLongitude
+                                                        },
+                                                        southeast: {
+                                                            latitude:
+                                                                southLatitude,
+                                                            longitude:
+                                                                eastLongitude
+                                                        },
+                                                        southwest: {
+                                                            latitude:
+                                                                southLatitude,
+                                                            longitude:
+                                                                westLongitude
+                                                        }
+                                                    };
+
+                                                    setBoundingBox(
+                                                        newBoundingBox
+                                                    );
+
+                                                    const [meta, base64] =
+                                                        await getMapSnapshotAsBase64(
+                                                            viewerRef,
+                                                            true,
+                                                            false
+                                                        );
+                                                    const image = `${meta},${base64}`;
+                                                    setBase64Image(image);
+
+                                                    detectObstructionByImage(
+                                                        base64,
+                                                        newBoundingBox
+                                                    );
+                                                    togglePolygonDetectionDropdown();
+                                                    setDetectionMode(
+                                                        PropertyEditorDetectionMode.AI
+                                                    );
+                                                }}
+                                            >
+                                                <img
+                                                    src="/ai.svg"
+                                                    alt="AI icon"
+                                                    className="w-4 h-4 ml-2 my-2"
+                                                />
+                                                <p className="px-2 my-2 pt-0.5">
+                                                    Detect Obstructions
+                                                </p>
+                                            </div>
+                                        </>
+                                    )}
                             </div>
                         </div>
                     </div>
@@ -282,9 +381,7 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
                                         alt="Tap icon"
                                         className="w-4 h-4 ml-2 my-2"
                                     />
-                                    <p className="px-2 my-2">
-                                        Move point
-                                    </p>
+                                    <p className="px-2 my-2">Move point</p>
                                 </div>
                                 <hr />
                                 <div
@@ -300,9 +397,7 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
                                         alt="Curve icon"
                                         className="w-4 h-4 ml-2 my-2"
                                     />
-                                    <p className="px-2 my-2">
-                                        Add point
-                                    </p>
+                                    <p className="px-2 my-2">Add point</p>
                                 </div>
                                 <hr />
                                 <div className="relative flex flex-grow flex-col text-x">
@@ -439,7 +534,9 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
                         style={{ color: '#0e2b4e' }}
                         onClick={handleUndo}
                     >
-                        <GrUndo className={`w-5 h-5 cursor-pointer ${actionsStack.length > 0 ? '' : 'opacity-50'}`} />
+                        <GrUndo
+                            className={`w-5 h-5 cursor-pointer ${actionsStack.length > 0 ? '' : 'opacity-50'}`}
+                        />
                     </div>
                 </div>
                 <div className="w-[1px] h-[25px] bg-gray-300"></div>
@@ -454,7 +551,7 @@ const SAMEditorActions = ({ onResetButtonClick }: SAMEditorActionsProps) => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default SAMEditorActions
+export default SAMEditorActions;
