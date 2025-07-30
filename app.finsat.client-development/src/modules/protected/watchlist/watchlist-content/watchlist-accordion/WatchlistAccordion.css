@@ -1,0 +1,79 @@
+/* Hide the default checkbox */
+.accordion-checkbox {
+    display: none;
+}
+  
+/* Style the custom checkbox */
+.checkbox-property-container label {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+  
+/* The checkmark */
+.checkbox-property-container input[type="checkbox"]:checked + label::after {
+    content: '✔';
+    position: absolute;
+    top: -3px;
+    left: 1.5px;
+    font-size: 16px;
+    color: #1C88EC; /* Tick icon color */
+}
+  
+/* Change border color and background when checked */
+.checkbox-property-container input[type="checkbox"]:checked + label {
+    border-color: #ccc;
+    background-color: white;
+}
+
+/* Change cursor when disabled */
+.checkbox-property-container input[type="checkbox"]:disabled + label {
+    cursor: default;
+}
+
+/* Style the custom checkbox */
+.checkbox-watchlist-container label {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+  
+/* The checkmark */
+.checkbox-watchlist-container input[type="checkbox"]:checked + label::after {
+    content: '✔';
+    position: absolute;
+    top: -3px;
+    left: 1.5px;
+    font-size: 16px;
+    color: #1C88EC; /* Tick icon color */
+}
+  
+/* Change border color and background when checked */
+.checkbox-watchlist-container input[type="checkbox"]:checked + label {
+    border-color: #ccc;
+    background-color: white;
+}
+
+/* Change cursor when disabled */
+.checkbox-watchlist-container input[type="checkbox"]:disabled + label {
+    cursor: default;
+}
+
+.tr-accordion, .td-accordion, .th-accordion {
+    min-height: auto !important;
+    height: 40px !important;
+    line-height: 1 !important;
+    padding: 4px 8px !important;
+}

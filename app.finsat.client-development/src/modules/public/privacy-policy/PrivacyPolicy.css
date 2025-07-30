@@ -1,0 +1,23 @@
+.nested-list {
+    counter-reset: section;
+}
+  
+.nested-list > li {
+    counter-increment: section;
+    position: relative;
+}
+  
+.nested-list > li > ol {
+    counter-reset: subsection;
+}
+  
+.nested-list > li > ol > li {
+    counter-increment: subsection;
+    position: relative;
+}
+  
+.nested-list > li > ol > li::before {
+    content: counters(section, '.') '.' counters(subsection, '.') ' ';
+    position: absolute;
+    left: -2em;
+}

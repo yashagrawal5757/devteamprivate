@@ -1,0 +1,33 @@
+/* Hide the default checkbox */
+.watchlist-header-checkbox {
+    display: none;
+}
+  
+/* Style the custom checkbox */
+.checkbox-watchlist-header label {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+  
+/* The checkmark */
+.checkbox-watchlist-header input[type="checkbox"]:checked + label::after {
+    content: '✔';
+    position: absolute;
+    top: -3px;
+    left: 1.5px;
+    font-size: 16px;
+    color: #1C88EC; /* Tick icon color */
+}
+  
+/* Change border color and background when checked */
+.checkbox-watchlist-header input[type="checkbox"]:checked + label {
+    border-color: #1C88EC;
+    background-color: white;
+}

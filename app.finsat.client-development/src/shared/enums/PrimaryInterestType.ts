@@ -1,0 +1,7 @@
+export enum PrimaryInterestType {
+    NONE = 0,
+    SITE_FEASIBILITY_STUDY,
+    WEATHER_RISK_INDICES,
+    FINANCIAL_MODELING,
+    CLIMATE_RISK_RATINGS
+}

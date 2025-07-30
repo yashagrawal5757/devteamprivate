@@ -1,0 +1,74 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ESNext",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "@contexts/*": [
+        "./shared/contexts/*"
+      ],
+      "@enums/*": [
+        "./shared/enums/*"
+      ],
+      "@hooks/*": [
+        "./shared/hooks/*"
+      ],
+      "@metadata/*": [
+        "./shared/metadata/*"
+      ],
+      "@models/*": [
+        "./shared/models/*"
+      ],
+      "@routes/*": [
+        "./shared/routes/*"
+      ],
+      "@custom-types/*": [
+        "./shared/types/*"
+      ],
+      "@services/*": [
+        "./shared/services/*"
+      ],
+      "@ui/*": [
+        "./shared/ui/*"
+      ],
+      "@core/*": [
+        "./core/*"
+      ],
+      "@state/*": [
+        "./state/*"
+      ],
+      "@dashboard/*": [
+        "./modules/protected/dashboard/*"
+      ],
+      "@explore/*": [
+        "./modules/protected/explore-hybrid/*"
+      ],
+      "@watchlist/*": [
+        "./modules/protected/watchlist/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

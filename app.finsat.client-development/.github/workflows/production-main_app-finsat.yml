@@ -1,0 +1,108 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy production branch
+
+on:
+#  push:
+#    branches:
+#      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+
+      - name: Set environment variables
+        run: |
+          echo "REACT_APP_API_KEY=${{ secrets.REACT_APP_API_KEY }}" >> $GITHUB_ENV
+          echo "REACT_APP_API_BASE_ROUTE=${{ secrets.REACT_APP_API_BASE_ROUTE }}" >> $GITHUB_ENV
+          echo "REACT_APP_CESIUM_PHOTOREALISTIC_ID=${{ secrets.REACT_APP_CESIUM_PHOTOREALISTIC_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_CESIUM_SATELLITE_IMAGERY_ID=${{ secrets.REACT_APP_CESIUM_SATELLITE_IMAGERY_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_CESIUM_STREET_IMAGERY_ID=${{ secrets.REACT_APP_CESIUM_STREET_IMAGERY_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_CESIUM_NORMAL_ID=${{ secrets.REACT_APP_CESIUM_NORMAL_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_CI=false" >> $GITHUB_ENV
+          echo "REACT_APP_CESIUM_ION_TOKEN=${{ secrets.REACT_APP_CESIUM_ION_TOKEN }}" >> $GITHUB_ENV
+          echo "REACT_APP_CESIUM_SOLAR_HEATMAP_IMAGERY_ID=${{ secrets.REACT_APP_CESIUM_SOLAR_HEATMAP_IMAGERY_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_GOOGLE_SOLAR_API_KEY=${{ secrets.REACT_APP_CESIUM_SOLAR_HEATMAP_IMAGERY_ID }}" >> $GITHUB_ENV
+          echo "REACT_APP_API_ML_ROUTE=${{ secrets.REACT_APP_API_ML_ROUTE }}" >> $GITHUB_ENV
+          echo "REACT_APP_NOMINATIM_SERVICE=${{ secrets.REACT_APP_NOMINATIM_SERVICE }}" >> $GITHUB_ENV
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: |
+          npm install ci
+
+      - name: Build React app
+        env:
+          CI: false
+          REACT_APP_API_KEY: ${{ secrets.REACT_APP_API_KEY }}
+          REACT_APP_API_BASE_ROUTE: ${{ secrets.REACT_APP_API_BASE_ROUTE }}
+          REACT_APP_CESIUM_PHOTOREALISTIC_ID: ${{ secrets.REACT_APP_CESIUM_PHOTOREALISTIC_ID }}
+          REACT_APP_CESIUM_SATELLITE_IMAGERY_ID: ${{ secrets.REACT_APP_CESIUM_SATELLITE_IMAGERY_ID }}
+          REACT_APP_CESIUM_STREET_IMAGERY_ID: ${{ secrets.REACT_APP_CESIUM_STREET_IMAGERY_ID }}
+          REACT_APP_CESIUM_NORMAL_ID: ${{ secrets.REACT_APP_CESIUM_NORMAL_ID }}
+          REACT_APP_CESIUM_ION_TOKEN: ${{ secrets.REACT_APP_CESIUM_ION_TOKEN }}
+          REACT_APP_CESIUM_SOLAR_HEATMAP_IMAGERY_ID: ${{ secrets.REACT_APP_CESIUM_SOLAR_HEATMAP_IMAGERY_ID }}
+          REACT_APP_GOOGLE_SOLAR_API_KEY: ${{ secrets.REACT_APP_GOOGLE_SOLAR_API_KEY }}
+          REACT_APP_API_ML_ROUTE: ${{ secrets.REACT_APP_API_ML_ROUTE }}
+          REACT_APP_NOMINATIM_SERVICE: ${{ secrets.REACT_APP_NOMINATIM_SERVICE }}
+        run: |
+          export NODE_OPTIONS=--max-old-space-size=4096
+          npm run build
+
+      - name: List build directory
+        run: ls -R ./build
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: react-app
+          path: ./build
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+    permissions:
+      id-token: write #This is required for requesting the JWT
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
+        with:
+          name: react-app
+      
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_DB7C257D629E4C23A9D2A00DD857D109 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_27FF86896A384F219D649E69A75FA32F }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_BEBF6B39166A48D693193881713399BC }}
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'app-finsat'
+          slot-name: 'Production'
+          package: .
+          

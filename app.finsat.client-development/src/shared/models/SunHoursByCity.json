@@ -1,0 +1,7925 @@
+[
+    {
+        "country": "Ivory Coast",
+        "city": "Gagnoa",
+        "monthlySunshineHours ": [
+            183.0,
+            180.0,
+            196.0,
+            188.0,
+            181.0,
+            118.0,
+            97.0,
+            80.0,
+            110.0,
+            155.0,
+            171.0,
+            164.0
+        ],
+        "annualSunshineHours": 1823.0
+    },
+    {
+        "country": "Ivory Coast",
+        "city": "Bouak\u00e9",
+        "monthlySunshineHours": [
+            242.0,
+            224.0,
+            219.0,
+            194.0,
+            208.0,
+            145.0,
+            104.0,
+            82.0,
+            115.0,
+            170.0,
+            191.0,
+            198.0
+        ],
+        "annualSunshineHours": 2092.0
+    },
+    {
+        "country": "Ivory Coast",
+        "city": "Abidjan",
+        "monthlySunshineHours": [
+            223.0,
+            223.0,
+            239.0,
+            214.0,
+            205.0,
+            128.0,
+            137.0,
+            125.0,
+            139.0,
+            215.0,
+            224.0,
+            224.0
+        ],
+        "annualSunshineHours": 2296.0
+    },
+    {
+        "country": "Ivory Coast",
+        "city": "Odienn\u00e9",
+        "monthlySunshineHours": [
+            242.0,
+            220.2,
+            217.3,
+            214.7,
+            248.8,
+            221.8,
+            183.5,
+            174.5,
+            185.4,
+            235.8,
+            252.0,
+            242.6
+        ],
+        "annualSunshineHours": 2638.6
+    },
+    {
+        "country": "Ivory Coast",
+        "city": "Ferk\u00e9",
+        "monthlySunshineHours": [
+            279.0,
+            249.0,
+            253.0,
+            229.0,
+            251.0,
+            221.0,
+            183.0,
+            151.0,
+            173.0,
+            245.0,
+            261.0,
+            262.0
+        ],
+        "annualSunshineHours": 2757.0
+    },
+    {
+        "country": "Benin",
+        "city": "Cotonou",
+        "monthlySunshineHours": [
+            213.9,
+            210.0,
+            223.2,
+            219.0,
+            213.9,
+            141.0,
+            136.4,
+            148.8,
+            165.0,
+            207.7,
+            243.0,
+            223.2
+        ],
+        "annualSunshineHours": 2345.2
+    },
+    {
+        "country": "Benin",
+        "city": "Parakou",
+        "monthlySunshineHours": [
+            261.0,
+            243.0,
+            252.0,
+            230.0,
+            239.0,
+            193.0,
+            133.0,
+            104.0,
+            129.0,
+            217.0,
+            252.0,
+            248.0
+        ],
+        "annualSunshineHours": 2501.0
+    },
+    {
+        "country": "Benin",
+        "city": "Kandi",
+        "monthlySunshineHours": [
+            279.0,
+            257.6,
+            260.4,
+            255.0,
+            272.8,
+            252.0,
+            223.2,
+            195.3,
+            213.0,
+            275.9,
+            282.0,
+            279.0
+        ],
+        "annualSunshineHours": 3045.2
+    },
+    {
+        "country": "Togo",
+        "city": "Lom\u00e9",
+        "monthlySunshineHours": [
+            217.5,
+            214.0,
+            227.9,
+            201.9,
+            208.6,
+            146.0,
+            141.6,
+            148.8,
+            152.5,
+            205.5,
+            234.0,
+            235.6
+        ],
+        "annualSunshineHours": 2333.9
+    },
+    {
+        "country": "Togo",
+        "city": "Mango",
+        "monthlySunshineHours": [
+            285.0,
+            254.0,
+            270.0,
+            241.0,
+            261.0,
+            219.0,
+            168.0,
+            131.0,
+            161.0,
+            273.0,
+            284.0,
+            279.0
+        ],
+        "annualSunshineHours": 2826.0
+    },
+    {
+        "country": "Ghana",
+        "city": "Accra",
+        "monthlySunshineHours": [
+            217.0,
+            226.0,
+            217.0,
+            210.0,
+            217.0,
+            150.0,
+            155.0,
+            155.0,
+            180.0,
+            217.0,
+            240.0,
+            248.0
+        ],
+        "annualSunshineHours": 2432.0
+    },
+    {
+        "country": "Ghana",
+        "city": "Tamale",
+        "monthlySunshineHours": [
+            265.6,
+            235.7,
+            249.6,
+            229.0,
+            248.0,
+            212.0,
+            171.5,
+            139.0,
+            161.0,
+            260.9,
+            283.0,
+            263.5
+        ],
+        "annualSunshineHours": 2718.7
+    },
+    {
+        "country": "Ghana",
+        "city": "Kumasi",
+        "monthlySunshineHours": [
+            186.6,
+            187.2,
+            205.4,
+            204.0,
+            204.7,
+            146.3,
+            101.2,
+            77.0,
+            106.2,
+            161.4,
+            193.8,
+            178.0
+        ],
+        "annualSunshineHours": 1951.8
+    },
+    {
+        "country": "Cameroon",
+        "city": "Garoua",
+        "monthlySunshineHours": [
+            275.0,
+            252.6,
+            260.1,
+            245.4,
+            256.7,
+            224.4,
+            194.0,
+            187.2,
+            204.5,
+            261.5,
+            279.2,
+            286.5
+        ],
+        "annualSunshineHours": 2927.1
+    },
+    {
+        "country": "Cameroon",
+        "city": "N'Gaound\u00e9r\u00e9",
+        "monthlySunshineHours": [
+            286.4,
+            258.7,
+            235.4,
+            195.5,
+            195.4,
+            165.7,
+            128.0,
+            127.8,
+            139.0,
+            184.0,
+            264.1,
+            291.4
+        ],
+        "annualSunshineHours": 2471.4
+    },
+    {
+        "country": "Cameroon",
+        "city": "Douala",
+        "monthlySunshineHours": [
+            184.0,
+            179.0,
+            170.0,
+            174.0,
+            169.0,
+            107.0,
+            55.0,
+            46.0,
+            79.0,
+            120.0,
+            160.0,
+            175.0
+        ],
+        "annualSunshineHours": 1618.0
+    },
+    {
+        "country": "Cameroon",
+        "city": "Yaound\u00e9",
+        "monthlySunshineHours": [
+            177.0,
+            172.0,
+            149.0,
+            153.0,
+            158.0,
+            112.0,
+            85.0,
+            83.0,
+            97.0,
+            120.0,
+            159.0,
+            179.0
+        ],
+        "annualSunshineHours": 1644.0
+    },
+    {
+        "country": "Gabon",
+        "city": "Libreville",
+        "monthlySunshineHours": [
+            175.2,
+            176.8,
+            176.9,
+            176.8,
+            159.5,
+            130.6,
+            119.2,
+            90.4,
+            95.9,
+            112.9,
+            134.6,
+            167.8
+        ],
+        "annualSunshineHours": 1716.6
+    },
+    {
+        "country": "Gabon",
+        "city": "Port-Gentil",
+        "monthlySunshineHours": [
+            150.4,
+            160.8,
+            154.5,
+            151.5,
+            147.8,
+            156.3,
+            163.1,
+            135.3,
+            125.7,
+            116.1,
+            115.1,
+            147.2
+        ],
+        "annualSunshineHours": 1723.8
+    },
+    {
+        "country": "Nigeria",
+        "city": "Lagos",
+        "monthlySunshineHours": [
+            164.3,
+            169.5,
+            173.6,
+            180.0,
+            176.7,
+            114.0,
+            99.2,
+            108.5,
+            114.0,
+            167.4,
+            186.0,
+            192.2
+        ],
+        "annualSunshineHours": 1845.4
+    },
+    {
+        "country": "Nigeria",
+        "city": "Makurdi",
+        "monthlySunshineHours": [
+            236.0,
+            226.0,
+            223.0,
+            216.0,
+            223.0,
+            177.0,
+            143.0,
+            118.0,
+            144.0,
+            198.0,
+            228.0,
+            248.0
+        ],
+        "annualSunshineHours": 2380.0
+    },
+    {
+        "country": "Nigeria",
+        "city": "Jos",
+        "monthlySunshineHours": [
+            307.0,
+            274.0,
+            260.0,
+            220.0,
+            208.0,
+            201.0,
+            151.0,
+            127.0,
+            171.0,
+            242.0,
+            294.0,
+            313.0
+        ],
+        "annualSunshineHours": 2768.0
+    },
+    {
+        "country": "Nigeria",
+        "city": "Kano",
+        "monthlySunshineHours": [
+            275.0,
+            255.0,
+            267.0,
+            252.0,
+            273.0,
+            261.0,
+            233.0,
+            186.0,
+            237.0,
+            295.0,
+            297.0,
+            285.0
+        ],
+        "annualSunshineHours": 3114.0
+    },
+    {
+        "country": "Nigeria",
+        "city": "Sokoto",
+        "monthlySunshineHours": [
+            279.0,
+            269.0,
+            282.0,
+            255.0,
+            279.0,
+            282.0,
+            229.0,
+            208.0,
+            243.0,
+            307.0,
+            297.0,
+            288.0
+        ],
+        "annualSunshineHours": 3238.0
+    },
+    {
+        "country": "Sudan",
+        "city": "Port Sudan",
+        "monthlySunshineHours": [
+            214.0,
+            230.0,
+            282.0,
+            312.0,
+            338.0,
+            309.0,
+            307.0,
+            298.0,
+            300.0,
+            307.0,
+            249.0,
+            236.0
+        ],
+        "annualSunshineHours": 3382.0
+    },
+    {
+        "country": "Sudan",
+        "city": "Khartoum",
+        "monthlySunshineHours": [
+            341.0,
+            311.0,
+            310.0,
+            330.0,
+            300.0,
+            300.0,
+            279.0,
+            279.0,
+            300.0,
+            310.0,
+            330.0,
+            341.0
+        ],
+        "annualSunshineHours": 3737.1
+    },
+    {
+        "country": "Eritrea",
+        "city": "Asmara",
+        "monthlySunshineHours": [
+            304.7,
+            289.1,
+            300.7,
+            300.5,
+            298.5,
+            271.5,
+            217.9,
+            220.1,
+            260.4,
+            301.0,
+            292.5,
+            299.1
+        ],
+        "annualSunshineHours": 3361.0
+    },
+    {
+        "country": "Burkina Faso",
+        "city": "Ouagadougou",
+        "monthlySunshineHours": [
+            287.0,
+            263.0,
+            264.0,
+            256.0,
+            277.0,
+            264.0,
+            240.0,
+            223.0,
+            217.0,
+            273.0,
+            288.0,
+            284.0
+        ],
+        "annualSunshineHours": 3136.0
+    },
+    {
+        "country": "Burkina Faso",
+        "city": "Ouahigouya",
+        "monthlySunshineHours": [
+            291.0,
+            267.0,
+            280.0,
+            268.0,
+            284.0,
+            272.0,
+            258.0,
+            253.0,
+            261.0,
+            280.0,
+            288.0,
+            280.0
+        ],
+        "annualSunshineHours": 3282.0
+    },
+    {
+        "country": "Niger",
+        "city": "Niamey",
+        "monthlySunshineHours": [
+            297.6,
+            263.2,
+            269.7,
+            252.0,
+            279.0,
+            267.0,
+            257.3,
+            235.6,
+            235.6,
+            282.6,
+            282.0,
+            279.0
+        ],
+        "annualSunshineHours": 3203.2
+    },
+    {
+        "country": "Chad",
+        "city": "N'Djamena",
+        "monthlySunshineHours": [
+            297.6,
+            277.2,
+            282.1,
+            273.0,
+            285.2,
+            258.0,
+            213.9,
+            201.5,
+            228.0,
+            285.2,
+            300.0,
+            303.8
+        ],
+        "annualSunshineHours": 3205.5
+    },
+    {
+        "country": "Chad",
+        "city": "Ab\u00e9ch\u00e9",
+        "monthlySunshineHours": [
+            316.2,
+            291.2,
+            300.7,
+            300.0,
+            313.1,
+            300.0,
+            254.2,
+            226.3,
+            261.0,
+            306.9,
+            312.0,
+            319.3
+        ],
+        "annualSunshineHours": 3500.9
+    },
+    {
+        "country": "Gambia",
+        "city": "Banjul",
+        "monthlySunshineHours": [
+            279.0,
+            282.0,
+            310.0,
+            300.0,
+            310.0,
+            270.0,
+            186.0,
+            186.0,
+            180.0,
+            248.0,
+            240.0,
+            279.0
+        ],
+        "annualSunshineHours": 3070.0
+    },
+    {
+        "country": "Senegal",
+        "city": "Dakar",
+        "monthlySunshineHours": [
+            253.0,
+            249.0,
+            303.0,
+            301.0,
+            299.0,
+            259.0,
+            233.0,
+            204.0,
+            219.0,
+            254.0,
+            256.0,
+            249.0
+        ],
+        "annualSunshineHours": 3078.0
+    },
+    {
+        "country": "Senegal",
+        "city": "Thi\u00e8s",
+        "monthlySunshineHours": [
+            267.0,
+            260.0,
+            325.0,
+            332.0,
+            324.0,
+            276.0,
+            226.0,
+            188.0,
+            221.0,
+            267.0,
+            271.0,
+            257.0
+        ],
+        "annualSunshineHours": 3214.0
+    },
+    {
+        "country": "Somalia",
+        "city": "Mogadishu",
+        "monthlySunshineHours": [
+            268.0,
+            251.0,
+            282.0,
+            260.0,
+            273.0,
+            218.0,
+            226.0,
+            253.0,
+            265.0,
+            267.0,
+            261.0,
+            259.0
+        ],
+        "annualSunshineHours": 3082.0
+    },
+    {
+        "country": "Somalia",
+        "city": "Buloburde",
+        "monthlySunshineHours": [
+            290.0,
+            283.0,
+            293.0,
+            249.0,
+            287.0,
+            261.0,
+            216.0,
+            238.0,
+            262.0,
+            230.0,
+            246.0,
+            268.0
+        ],
+        "annualSunshineHours": 3124.0
+    },
+    {
+        "country": "Djibouti",
+        "city": "Djibouti City",
+        "monthlySunshineHours": [
+            254.0,
+            249.0,
+            279.0,
+            279.0,
+            310.0,
+            237.0,
+            236.0,
+            276.0,
+            282.0,
+            310.0,
+            291.0,
+            276.0
+        ],
+        "annualSunshineHours": 3279.0
+    },
+    {
+        "country": "Mali",
+        "city": "S\u00e9gou",
+        "monthlySunshineHours": [
+            292.0,
+            276.0,
+            292.0,
+            263.0,
+            274.0,
+            266.0,
+            254.0,
+            223.0,
+            242.0,
+            283.0,
+            287.0,
+            287.0
+        ],
+        "annualSunshineHours": 3239.0
+    },
+    {
+        "country": "Mali",
+        "city": "Timbuktu",
+        "monthlySunshineHours": [
+            263.9,
+            249.6,
+            269.9,
+            254.6,
+            275.3,
+            234.7,
+            248.6,
+            255.3,
+            248.9,
+            273.0,
+            274.0,
+            258.7
+        ],
+        "annualSunshineHours": 3106.5
+    },
+    {
+        "country": "Mali",
+        "city": "Bamako",
+        "monthlySunshineHours": [
+            277.4,
+            253.0,
+            268.1,
+            230.4,
+            242.6,
+            233.6,
+            216.6,
+            218.3,
+            221.7,
+            253.7,
+            270.7,
+            268.9
+        ],
+        "annualSunshineHours": 2954.1
+    },
+    {
+        "country": "Algeria",
+        "city": "Algiers",
+        "monthlySunshineHours": [
+            149.0,
+            165.0,
+            202.0,
+            258.0,
+            319.0,
+            318.0,
+            350.0,
+            319.0,
+            237.0,
+            229.0,
+            165.0,
+            136.0
+        ],
+        "annualSunshineHours": 2847.0
+    },
+    {
+        "country": "Algeria",
+        "city": "Tamanrasset",
+        "monthlySunshineHours": [
+            297.6,
+            275.5,
+            322.4,
+            327.0,
+            328.6,
+            306.0,
+            356.5,
+            331.7,
+            288.0,
+            310.0,
+            285.0,
+            272.8
+        ],
+        "annualSunshineHours": 3686.0
+    },
+    {
+        "country": "Tunisia",
+        "city": "Tunis",
+        "monthlySunshineHours": [
+            145.7,
+            165.3,
+            198.4,
+            225.0,
+            282.1,
+            309.0,
+            356.5,
+            328.6,
+            258.0,
+            217.0,
+            174.0,
+            148.8
+        ],
+        "annualSunshineHours": 2808.4
+    },
+    {
+        "country": "Tunisia",
+        "city": "Gabes",
+        "monthlySunshineHours": [
+            220.1,
+            215.6,
+            251.1,
+            267.0,
+            313.1,
+            321.0,
+            372.0,
+            353.4,
+            279.0,
+            260.4,
+            228.0,
+            210.8
+        ],
+        "annualSunshineHours": 3291.5
+    },
+    {
+        "country": "Morocco",
+        "city": "Rabat",
+        "monthlySunshineHours": [
+            179.8,
+            183.6,
+            232.5,
+            255.0,
+            291.4,
+            288.0,
+            316.2,
+            306.9,
+            261.0,
+            235.6,
+            189.0,
+            179.8
+        ],
+        "annualSunshineHours": 2918.8
+    },
+    {
+        "country": "Morocco",
+        "city": "Marrakech",
+        "monthlySunshineHours": [
+            220.1,
+            211.8,
+            248.0,
+            255.0,
+            288.3,
+            315.0,
+            334.8,
+            316.2,
+            264.0,
+            244.9,
+            213.0,
+            220.1
+        ],
+        "annualSunshineHours": 3131.2
+    },
+    {
+        "country": "Morocco",
+        "city": "Ouarzazate",
+        "monthlySunshineHours": [
+            251.8,
+            244.9,
+            297.2,
+            315.2,
+            332.7,
+            335.0,
+            317.7,
+            293.2,
+            266.4,
+            271.3,
+            242.9,
+            248.1
+        ],
+        "annualSunshineHours": 3416.4
+    },
+    {
+        "country": "Egypt",
+        "city": "Alexandria",
+        "monthlySunshineHours": [
+            217.0,
+            226.2,
+            279.0,
+            318.0,
+            337.9,
+            357.0,
+            372.0,
+            368.9,
+            333.0,
+            306.9,
+            246.0,
+            207.7
+        ],
+        "annualSunshineHours": 3579.5
+    },
+    {
+        "country": "Egypt",
+        "city": "Cairo",
+        "monthlySunshineHours": [
+            229.4,
+            234.9,
+            279.0,
+            306.0,
+            331.7,
+            363.0,
+            372.0,
+            356.5,
+            318.0,
+            294.5,
+            246.0,
+            210.8
+        ],
+        "annualSunshineHours": 3541.8
+    },
+    {
+        "country": "Egypt",
+        "city": "Dakhla Oasis",
+        "monthlySunshineHours": [
+            294.5,
+            279.7,
+            316.2,
+            315.0,
+            356.5,
+            366.0,
+            384.4,
+            375.1,
+            336.0,
+            328.6,
+            300.0,
+            291.4
+        ],
+        "annualSunshineHours": 3943.4
+    },
+    {
+        "country": "Egypt",
+        "city": "Hurghada",
+        "monthlySunshineHours": [
+            265.7,
+            277.6,
+            274.3,
+            285.6,
+            317.4,
+            348.0,
+            352.3,
+            322.4,
+            301.6,
+            275.2,
+            263.9,
+            246.7
+        ],
+        "annualSunshineHours": 3530.7
+    },
+    {
+        "country": "Egypt",
+        "city": "Marsa Alam",
+        "monthlySunshineHours": [
+            279.0,
+            283.0,
+            310.0,
+            330.0,
+            372.0,
+            390.0,
+            403.0,
+            372.0,
+            330.0,
+            310.0,
+            300.0,
+            279.0
+        ],
+        "annualSunshineHours": 3958.0
+    },
+    {
+        "country": "Libya",
+        "city": "Tripoli",
+        "monthlySunshineHours": [
+            206.0,
+            214.0,
+            237.0,
+            250.0,
+            315.0,
+            312.0,
+            376.0,
+            352.0,
+            271.0,
+            244.0,
+            212.0,
+            198.0
+        ],
+        "annualSunshineHours": 3187.0
+    },
+    {
+        "country": "Libya",
+        "city": "Benghazi",
+        "monthlySunshineHours": [
+            179.8,
+            192.0,
+            232.5,
+            252.0,
+            319.3,
+            327.0,
+            381.3,
+            365.8,
+            288.0,
+            251.1,
+            213.0,
+            167.4
+        ],
+        "annualSunshineHours": 3169.2
+    },
+    {
+        "country": "Kenya",
+        "city": "Mombasa",
+        "monthlySunshineHours": [
+            269.7,
+            257.1,
+            269.7,
+            225.0,
+            204.6,
+            207.0,
+            210.8,
+            244.9,
+            246.0,
+            272.8,
+            264.0,
+            260.4
+        ],
+        "annualSunshineHours": 2932.0
+    },
+    {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "monthlySunshineHours": [
+            288.3,
+            266.0,
+            267.0,
+            204.0,
+            189.1,
+            159.0,
+            130.2,
+            127.1,
+            180.0,
+            226.3,
+            198.0,
+            257.3
+        ],
+        "annualSunshineHours": 2492.3
+    },
+    {
+        "country": "Kenya",
+        "city": "Garissa",
+        "monthlySunshineHours": [
+            251.1,
+            235.2,
+            263.5,
+            273.0,
+            282.1,
+            255.0,
+            254.2,
+            257.3,
+            270.0,
+            279.0,
+            252.0,
+            241.8
+        ],
+        "annualSunshineHours": 3114.2
+    },
+    {
+        "country": "Kenya",
+        "city": "Lodwar",
+        "monthlySunshineHours": [
+            319.0,
+            280.0,
+            282.0,
+            279.0,
+            307.0,
+            297.0,
+            279.0,
+            310.0,
+            321.0,
+            316.0,
+            282.0,
+            310.0
+        ],
+        "annualSunshineHours": 3582.0
+    },
+    {
+        "country": "Angola",
+        "city": "Luanda",
+        "monthlySunshineHours": [
+            219.0,
+            208.0,
+            213.0,
+            199.0,
+            233.0,
+            223.0,
+            175.0,
+            150.0,
+            145.0,
+            164.0,
+            199.0,
+            212.0
+        ],
+        "annualSunshineHours": 2341.0
+    },
+    {
+        "country": "South Sudan",
+        "city": "Juba",
+        "monthlySunshineHours": [
+            288.3,
+            237.8,
+            220.1,
+            195.0,
+            241.8,
+            225.0,
+            182.9,
+            213.9,
+            225.0,
+            235.6,
+            237.0,
+            251.1
+        ],
+        "annualSunshineHours": 2753.5
+    },
+    {
+        "country": "South Sudan",
+        "city": "Wau",
+        "monthlySunshineHours": [
+            300.7,
+            269.7,
+            260.4,
+            228.0,
+            254.2,
+            237.0,
+            176.7,
+            192.2,
+            210.0,
+            229.4,
+            267.0,
+            303.8
+        ],
+        "annualSunshineHours": 2929.1
+    },
+    {
+        "country": "Tanzania",
+        "city": "Dar-es-Salaam",
+        "monthlySunshineHours": [
+            251.0,
+            241.0,
+            217.0,
+            156.0,
+            192.0,
+            231.0,
+            251.0,
+            242.0,
+            243.0,
+            254.0,
+            270.0,
+            287.0
+        ],
+        "annualSunshineHours": 2815.0
+    },
+    {
+        "country": "Tanzania",
+        "city": "Zanzibar",
+        "monthlySunshineHours": [
+            251.0,
+            243.0,
+            213.0,
+            180.0,
+            210.0,
+            220.0,
+            235.0,
+            253.0,
+            254.0,
+            270.0,
+            250.0,
+            259.0
+        ],
+        "annualSunshineHours": 2838.0
+    },
+    {
+        "country": "Tanzania",
+        "city": "Tabora",
+        "monthlySunshineHours": [
+            216.0,
+            218.0,
+            219.0,
+            227.0,
+            283.0,
+            303.0,
+            310.0,
+            297.0,
+            312.0,
+            301.0,
+            240.0,
+            217.0
+        ],
+        "annualSunshineHours": 3143.0
+    },
+    {
+        "country": "Tanzania",
+        "city": "Dodoma",
+        "monthlySunshineHours": [
+            241.8,
+            217.5,
+            241.8,
+            240.0,
+            279.0,
+            294.0,
+            341.0,
+            297.6,
+            300.0,
+            310.0,
+            303.0,
+            269.7
+        ],
+        "annualSunshineHours": 3335.4
+    },
+    {
+        "country": "Ethiopia",
+        "city": "Mekelle",
+        "monthlySunshineHours": [
+            294.2,
+            276.7,
+            279.9,
+            277.2,
+            303.2,
+            230.1,
+            165.5,
+            166.5,
+            248.7,
+            291.1,
+            292.8,
+            303.5
+        ],
+        "annualSunshineHours": 3129.4
+    },
+    {
+        "country": "Ethiopia",
+        "city": "Addis Abeba",
+        "monthlySunshineHours": [
+            269.7,
+            246.5,
+            248.0,
+            213.0,
+            217.0,
+            156.0,
+            111.6,
+            133.3,
+            138.0,
+            266.6,
+            267.0,
+            266.6
+        ],
+        "annualSunshineHours": 2440.3
+    },
+    {
+        "country": "Congo",
+        "city": "Brazzaville",
+        "monthlySunshineHours": [
+            168.0,
+            152.0,
+            194.0,
+            185.0,
+            188.0,
+            153.0,
+            127.0,
+            149.0,
+            145.0,
+            150.0,
+            157.0,
+            147.0
+        ],
+        "annualSunshineHours": 1915.0
+    },
+    {
+        "country": "Congo",
+        "city": "Pointe-Noire",
+        "monthlySunshineHours": [
+            157.0,
+            156.0,
+            164.0,
+            160.0,
+            150.0,
+            132.0,
+            119.0,
+            106.0,
+            70.0,
+            93.0,
+            123.0,
+            144.0
+        ],
+        "annualSunshineHours": 1574.0
+    },
+    {
+        "country": "Congo",
+        "city": "Dolisie",
+        "monthlySunshineHours": [
+            153.0,
+            164.0,
+            159.0,
+            152.0,
+            151.0,
+            136.0,
+            119.0,
+            105.0,
+            91.0,
+            116.0,
+            128.0,
+            133.0
+        ],
+        "annualSunshineHours": 1607.0
+    },
+    {
+        "country": "Democratic Republic of the Congo",
+        "city": "Kinshasa",
+        "monthlySunshineHours": [
+            124.0,
+            140.0,
+            155.0,
+            150.0,
+            155.0,
+            120.0,
+            124.0,
+            155.0,
+            120.0,
+            155.0,
+            150.0,
+            124.0
+        ],
+        "annualSunshineHours": 1672.0
+    },
+    {
+        "country": "Democratic Republic of the Congo",
+        "city": "Lubumbashi",
+        "monthlySunshineHours": [
+            129.0,
+            120.0,
+            174.0,
+            234.0,
+            291.0,
+            295.0,
+            315.0,
+            318.0,
+            294.0,
+            282.0,
+            194.0,
+            132.0
+        ],
+        "annualSunshineHours": 2778.0
+    },
+    {
+        "country": "Mauritania",
+        "city": "Nouadhibou",
+        "monthlySunshineHours": [
+            271.0,
+            248.0,
+            300.0,
+            295.0,
+            315.0,
+            303.0,
+            275.0,
+            281.0,
+            261.0,
+            260.0,
+            257.0,
+            264.0
+        ],
+        "annualSunshineHours": 3332.0
+    },
+    {
+        "country": "Mauritania",
+        "city": "Nouakchott",
+        "monthlySunshineHours": [
+            267.0,
+            250.0,
+            302.0,
+            311.0,
+            320.0,
+            284.0,
+            271.0,
+            265.0,
+            266.0,
+            263.0,
+            268.0,
+            267.0
+        ],
+        "annualSunshineHours": 3333.0
+    },
+    {
+        "country": "South Africa",
+        "city": "Pretoria",
+        "monthlySunshineHours": [
+            261.0,
+            235.0,
+            254.0,
+            246.6,
+            283.0,
+            271.0,
+            289.0,
+            296.0,
+            284.0,
+            275.0,
+            254.0,
+            272.0
+        ],
+        "annualSunshineHours": 3220.0
+    },
+    {
+        "country": "South Africa",
+        "city": "Cape Town",
+        "monthlySunshineHours": [
+            337.9,
+            297.4,
+            292.9,
+            233.5,
+            205.3,
+            175.4,
+            193.1,
+            212.1,
+            224.7,
+            277.7,
+            309.8,
+            334.2
+        ],
+        "annualSunshineHours": 3094.0
+    },
+    {
+        "country": "South Africa",
+        "city": "Johannesburg",
+        "monthlySunshineHours": [
+            250.1,
+            224.8,
+            238.8,
+            236.9,
+            276.0,
+            266.9,
+            283.9,
+            284.1,
+            280.8,
+            269.5,
+            248.7,
+            263.9
+        ],
+        "annualSunshineHours": 3124.4
+    },
+    {
+        "country": "South Africa",
+        "city": "Bloemfontein",
+        "monthlySunshineHours": [
+            296.3,
+            247.9,
+            258.6,
+            250.2,
+            266.0,
+            249.9,
+            272.6,
+            285.9,
+            278.0,
+            290.9,
+            296.5,
+            319.5
+        ],
+        "annualSunshineHours": 3312.3
+    },
+    {
+        "country": "South Africa",
+        "city": "Upington",
+        "monthlySunshineHours": [
+            352.9,
+            298.7,
+            297.5,
+            283.5,
+            290.5,
+            270.3,
+            289.8,
+            307.3,
+            300.2,
+            328.9,
+            345.2,
+            367.0
+        ],
+        "annualSunshineHours": 3731.8
+    },
+    {
+        "country": "South Africa",
+        "city": "Durban",
+        "monthlySunshineHours": [
+            184.0,
+            178.8,
+            201.6,
+            206.4,
+            223.6,
+            224.9,
+            230.4,
+            217.0,
+            173.3,
+            169.4,
+            166.1,
+            189.9
+        ],
+        "annualSunshineHours": 2365.4
+    },
+    {
+        "country": "Botswana",
+        "city": "Maun",
+        "monthlySunshineHours": [
+            245.0,
+            207.0,
+            257.0,
+            282.0,
+            310.0,
+            300.0,
+            313.0,
+            332.0,
+            315.0,
+            291.0,
+            264.0,
+            214.0
+        ],
+        "annualSunshineHours": 3330.0
+    },
+    {
+        "country": "Botswana",
+        "city": "Gaborone",
+        "monthlySunshineHours": [
+            280.6,
+            261.5,
+            264.4,
+            260.5,
+            284.2,
+            260.0,
+            292.4,
+            313.6,
+            308.4,
+            295.4,
+            265.5,
+            285.2
+        ],
+        "annualSunshineHours": 3371.0
+    },
+    {
+        "country": "Botswana",
+        "city": "Ghanzi",
+        "monthlySunshineHours": [
+            295.0,
+            280.0,
+            313.0,
+            282.0,
+            316.0,
+            306.0,
+            316.0,
+            319.0,
+            305.0,
+            279.0,
+            300.0,
+            267.0
+        ],
+        "annualSunshineHours": 3579.0
+    },
+    {
+        "country": "Zambia",
+        "city": "Ndola",
+        "monthlySunshineHours": [
+            151.9,
+            142.8,
+            192.2,
+            243.0,
+            279.0,
+            276.0,
+            297.6,
+            297.6,
+            279.0,
+            269.7,
+            207.0,
+            158.1
+        ],
+        "annualSunshineHours": 2793.9
+    },
+    {
+        "country": "Zambia",
+        "city": "Lusaka",
+        "monthlySunshineHours": [
+            176.7,
+            168.0,
+            220.1,
+            246.0,
+            275.9,
+            270.0,
+            294.5,
+            303.8,
+            291.0,
+            272.8,
+            234.0,
+            182.9
+        ],
+        "annualSunshineHours": 2935.7
+    },
+    {
+        "country": "Zambia",
+        "city": "Livingstone",
+        "monthlySunshineHours": [
+            213.9,
+            196.0,
+            251.1,
+            273.0,
+            303.8,
+            288.0,
+            310.0,
+            319.3,
+            297.0,
+            279.0,
+            228.0,
+            207.7
+        ],
+        "annualSunshineHours": 3166.8
+    },
+    {
+        "country": "Zimbabwe",
+        "city": "Harare",
+        "monthlySunshineHours": [
+            217.0,
+            190.4,
+            232.5,
+            249.0,
+            269.7,
+            264.0,
+            279.0,
+            300.7,
+            294.0,
+            285.2,
+            231.0,
+            198.4
+        ],
+        "annualSunshineHours": 3010.9
+    },
+    {
+        "country": "Zimbabwe",
+        "city": "Bulawayo",
+        "monthlySunshineHours": [
+            244.9,
+            212.8,
+            251.1,
+            252.0,
+            279.0,
+            267.0,
+            288.3,
+            300.7,
+            288.0,
+            272.8,
+            237.0,
+            226.3
+        ],
+        "annualSunshineHours": 3119.9
+    },
+    {
+        "country": "Malawi",
+        "city": "Karonga",
+        "monthlySunshineHours": [
+            176.7,
+            170.8,
+            207.7,
+            222.0,
+            254.2,
+            264.0,
+            285.2,
+            306.9,
+            306.0,
+            319.3,
+            273.0,
+            213.9
+        ],
+        "annualSunshineHours": 2999.7
+    },
+    {
+        "country": "Malawi",
+        "city": "Blantyre",
+        "monthlySunshineHours": [
+            198.4,
+            182.0,
+            217.0,
+            237.0,
+            260.4,
+            237.0,
+            232.3,
+            260.4,
+            270.0,
+            275.9,
+            228.0,
+            198.4
+        ],
+        "annualSunshineHours": 2797.0
+    },
+    {
+        "country": "Malawi",
+        "city": "Mzuzu",
+        "monthlySunshineHours": [
+            145.7,
+            142.1,
+            164.3,
+            171.0,
+            217.0,
+            219.0,
+            238.5,
+            275.9,
+            288.0,
+            300.7,
+            252.0,
+            176.7
+        ],
+        "annualSunshineHours": 2590.9
+    },
+    {
+        "country": "Madagascar",
+        "city": "Fianarantsoa",
+        "monthlySunshineHours": [
+            191.1,
+            171.0,
+            175.4,
+            184.8,
+            186.0,
+            165.9,
+            163.5,
+            191.1,
+            220.5,
+            230.4,
+            208.0,
+            190.1
+        ],
+        "annualSunshineHours": 2277.8
+    },
+    {
+        "country": "Madagascar",
+        "city": "Toamasina",
+        "monthlySunshineHours": [
+            224.7,
+            198.2,
+            191.0,
+            196.9,
+            192.1,
+            162.5,
+            162.8,
+            184.6,
+            209.7,
+            232.7,
+            236.0,
+            219.2
+        ],
+        "annualSunshineHours": 2410.4
+    },
+    {
+        "country": "Madagascar",
+        "city": "Antananarivo",
+        "monthlySunshineHours": [
+            210.5,
+            178.0,
+            199.1,
+            220.5,
+            228.8,
+            206.1,
+            213.9,
+            235.0,
+            249.5,
+            251.0,
+            232.7,
+            201.1
+        ],
+        "annualSunshineHours": 2626.2
+    },
+    {
+        "country": "Madagascar",
+        "city": "Antsiranana",
+        "monthlySunshineHours": [
+            189.2,
+            170.0,
+            214.9,
+            256.4,
+            284.8,
+            256.5,
+            273.1,
+            283.6,
+            293.3,
+            306.8,
+            281.5,
+            228.9
+        ],
+        "annualSunshineHours": 3039.0
+    },
+    {
+        "country": "Madagascar",
+        "city": "Mahajanga",
+        "monthlySunshineHours": [
+            209.0,
+            184.9,
+            244.8,
+            269.9,
+            294.9,
+            282.9,
+            291.5,
+            303.1,
+            307.0,
+            319.7,
+            288.2,
+            227.3
+        ],
+        "annualSunshineHours": 3223.2
+    },
+    {
+        "country": "Madagascar",
+        "city": "Toliara",
+        "monthlySunshineHours": [
+            305.0,
+            285.0,
+            296.0,
+            302.0,
+            306.0,
+            277.0,
+            291.0,
+            298.0,
+            307.0,
+            324.0,
+            313.0,
+            306.0
+        ],
+        "annualSunshineHours": 3610.0
+    },
+    {
+        "country": "Mozambique",
+        "city": "Maputo",
+        "monthlySunshineHours": [
+            248.0,
+            226.0,
+            248.0,
+            240.0,
+            248.0,
+            240.0,
+            248.0,
+            248.0,
+            248.0,
+            217.0,
+            210.0,
+            217.0
+        ],
+        "annualSunshineHours": 2838.0
+    },
+    {
+        "country": "Central African Republic",
+        "city": "Bangui",
+        "monthlySunshineHours": [
+            217.0,
+            196.0,
+            186.0,
+            180.0,
+            186.0,
+            180.0,
+            124.0,
+            124.0,
+            150.0,
+            155.0,
+            180.0,
+            217.0
+        ],
+        "annualSunshineHours": 2095.0
+    },
+    {
+        "country": "Central African Republic",
+        "city": "Birao",
+        "monthlySunshineHours": [
+            289.6,
+            275.0,
+            270.6,
+            248.1,
+            255.7,
+            216.9,
+            190.7,
+            186.5,
+            210.0,
+            267.2,
+            290.3,
+            297.4
+        ],
+        "annualSunshineHours": 2998.0
+    },
+    {
+        "country": "Uganda",
+        "city": "Kampala",
+        "monthlySunshineHours": [
+            238.0,
+            193.0,
+            189.0,
+            195.0,
+            187.0,
+            189.0,
+            139.0,
+            168.0,
+            157.0,
+            172.0,
+            178.0,
+            205.0
+        ],
+        "annualSunshineHours": 2210.0
+    },
+    {
+        "country": "Uganda",
+        "city": "Entebbe",
+        "monthlySunshineHours": [
+            233.0,
+            204.0,
+            205.0,
+            180.0,
+            192.0,
+            186.0,
+            198.0,
+            195.0,
+            195.0,
+            201.0,
+            198.0,
+            211.0
+        ],
+        "annualSunshineHours": 2398.0
+    },
+    {
+        "country": "Burundi",
+        "city": "Bujumbura",
+        "monthlySunshineHours": [
+            167.4,
+            158.2,
+            176.7,
+            165.0,
+            210.8,
+            255.0,
+            272.8,
+            251.1,
+            213.0,
+            189.1,
+            150.0,
+            164.3
+        ],
+        "annualSunshineHours": 2373.4
+    },
+    {
+        "country": "Guinea",
+        "city": "Conakry",
+        "monthlySunshineHours": [
+            223.0,
+            224.0,
+            251.0,
+            222.0,
+            208.0,
+            153.0,
+            109.0,
+            87.0,
+            135.0,
+            189.0,
+            207.0,
+            214.0
+        ],
+        "annualSunshineHours": 2222.0
+    },
+    {
+        "country": "Guinea",
+        "city": "Kankan",
+        "monthlySunshineHours": [
+            262.0,
+            236.0,
+            249.0,
+            220.0,
+            234.0,
+            216.0,
+            169.0,
+            159.0,
+            191.0,
+            221.0,
+            241.0,
+            260.0
+        ],
+        "annualSunshineHours": 2658.0
+    },
+    {
+        "country": "Guinea-Bissau",
+        "city": "Bissau",
+        "monthlySunshineHours": [
+            248.0,
+            226.0,
+            279.0,
+            270.0,
+            248.0,
+            210.0,
+            186.0,
+            155.0,
+            180.0,
+            217.0,
+            240.0,
+            248.0
+        ],
+        "annualSunshineHours": 2707.0
+    },
+    {
+        "country": "Equatorial Guinea",
+        "city": "Bata",
+        "monthlySunshineHours": [
+            201.5,
+            192.1,
+            173.6,
+            177.0,
+            189.1,
+            147.0,
+            142.6,
+            142.6,
+            114.0,
+            114.7,
+            141.0,
+            186.0
+        ],
+        "annualSunshineHours": 1921.2
+    },
+    {
+        "country": "Equatorial Guinea",
+        "city": "Malabo",
+        "monthlySunshineHours": [
+            148.8,
+            152.5,
+            108.5,
+            120.0,
+            117.8,
+            69.0,
+            46.5,
+            58.9,
+            48.0,
+            68.2,
+            99.0,
+            139.5
+        ],
+        "annualSunshineHours": 1176.7
+    },
+    {
+        "country": "Namibia",
+        "city": "Keetmanshoop",
+        "monthlySunshineHours": [
+            353.0,
+            300.0,
+            312.0,
+            306.0,
+            304.0,
+            287.0,
+            305.0,
+            323.0,
+            319.0,
+            343.0,
+            348.0,
+            348.0
+        ],
+        "annualSunshineHours": 3870.0
+    },
+    {
+        "country": "Namibia",
+        "city": "Windhoek",
+        "monthlySunshineHours": [
+            288.0,
+            254.0,
+            282.0,
+            273.0,
+            310.0,
+            309.0,
+            326.0,
+            341.0,
+            321.0,
+            319.0,
+            297.0,
+            285.0
+        ],
+        "annualSunshineHours": 3605.0
+    },
+    {
+        "country": "Afghanistan",
+        "city": "Kabul",
+        "monthlySunshineHours": [
+            177.2,
+            178.6,
+            204.5,
+            232.5,
+            310.3,
+            353.4,
+            356.8,
+            339.7,
+            303.9,
+            282.6,
+            253.2,
+            182.4
+        ],
+        "annualSunshineHours": 3175.1
+    },
+    {
+        "country": "Afghanistan",
+        "city": "Fayzabad",
+        "monthlySunshineHours": [
+            117.3,
+            116.7,
+            149.2,
+            186.2,
+            256.9,
+            313.6,
+            324.5,
+            305.2,
+            279.1,
+            224.2,
+            176.4,
+            127.3
+        ],
+        "annualSunshineHours": 2576.6
+    },
+    {
+        "country": "Afghanistan",
+        "city": "Kandahar",
+        "monthlySunshineHours": [
+            199.9,
+            180.6,
+            234.6,
+            254.7,
+            346.1,
+            369.7,
+            342.2,
+            338.5,
+            322.9,
+            306.7,
+            263.8,
+            216.1
+        ],
+        "annualSunshineHours": 3375.8
+    },
+    {
+        "country": "Afghanistan",
+        "city": "Kunduz",
+        "monthlySunshineHours": [
+            114.4,
+            114.6,
+            158.9,
+            201.0,
+            276.5,
+            332.1,
+            340.2,
+            315.5,
+            289.7,
+            221.8,
+            169.3,
+            118.3
+        ],
+        "annualSunshineHours": 2652.3
+    },
+    {
+        "country": "Lebanon",
+        "city": "Beirut",
+        "monthlySunshineHours": [
+            131.0,
+            143.0,
+            191.0,
+            243.0,
+            310.0,
+            348.0,
+            360.0,
+            334.0,
+            288.0,
+            245.0,
+            200.0,
+            147.0
+        ],
+        "annualSunshineHours": 2940.0
+    },
+    {
+        "country": "Bangladesh",
+        "city": "Dhaka",
+        "monthlySunshineHours": [
+            220.3,
+            225.3,
+            256.3,
+            237.8,
+            220.9,
+            142.2,
+            131.5,
+            140.6,
+            152.7,
+            228.6,
+            236.3,
+            242.6
+        ],
+        "annualSunshineHours": 2435.1
+    },
+    {
+        "country": "China",
+        "city": "Beijing",
+        "monthlySunshineHours": [
+            194.1,
+            194.7,
+            231.8,
+            251.9,
+            283.4,
+            261.4,
+            212.4,
+            220.9,
+            232.1,
+            222.1,
+            185.3,
+            180.7
+        ],
+        "annualSunshineHours": 2670.8
+    },
+    {
+        "country": "China",
+        "city": "Chengdu",
+        "monthlySunshineHours": [
+            53.3,
+            51.4,
+            83.1,
+            113.9,
+            121.7,
+            117.2,
+            131.9,
+            155.0,
+            77.6,
+            59.4,
+            57.2,
+            51.6
+        ],
+        "annualSunshineHours": 1073.3
+    },
+    {
+        "country": "China",
+        "city": "Chongqing",
+        "monthlySunshineHours": [
+            16.6,
+            32.9,
+            72.8,
+            105.8,
+            109.7,
+            98.7,
+            169.3,
+            175.2,
+            102.6,
+            46.6,
+            35.0,
+            18.0
+        ],
+        "annualSunshineHours": 983.2
+    },
+    {
+        "country": "China",
+        "city": "Fuzhou",
+        "monthlySunshineHours": [
+            101.6,
+            79.2,
+            89.1,
+            111.0,
+            114.4,
+            141.9,
+            225.6,
+            199.2,
+            153.7,
+            144.2,
+            120.3,
+            126.9
+        ],
+        "annualSunshineHours": 1607.1
+    },
+    {
+        "country": "China",
+        "city": "Guangzhou",
+        "monthlySunshineHours": [
+            118.5,
+            71.6,
+            62.4,
+            65.1,
+            104.0,
+            140.2,
+            202.0,
+            173.5,
+            170.2,
+            181.8,
+            172.7,
+            166.0
+        ],
+        "annualSunshineHours": 1628.0
+    },
+    {
+        "country": "China",
+        "city": "Hong Kong",
+        "monthlySunshineHours": [
+            143.0,
+            94.2,
+            90.8,
+            101.7,
+            140.4,
+            146.1,
+            212.0,
+            188.9,
+            172.3,
+            193.9,
+            180.1,
+            172.2
+        ],
+        "annualSunshineHours": 1835.6
+    },
+    {
+        "country": "China",
+        "city": "Lhasa",
+        "monthlySunshineHours": [
+            250.9,
+            226.7,
+            246.1,
+            248.9,
+            276.6,
+            257.3,
+            227.4,
+            219.6,
+            229.0,
+            281.7,
+            267.4,
+            258.6
+        ],
+        "annualSunshineHours": 2990.2
+    },
+    {
+        "country": "China",
+        "city": "Macau",
+        "monthlySunshineHours": [
+            127.4,
+            79.4,
+            71.5,
+            85.3,
+            136.4,
+            155.3,
+            223.2,
+            195.4,
+            176.5,
+            192.3,
+            172.2,
+            159.1
+        ],
+        "annualSunshineHours": 1773.9
+    },
+    {
+        "country": "China",
+        "city": "Nanjing",
+        "monthlySunshineHours": [
+            124.7,
+            120.3,
+            144.7,
+            169.2,
+            194.2,
+            162.8,
+            196.7,
+            201.6,
+            164.0,
+            164.2,
+            147.4,
+            137.1
+        ],
+        "annualSunshineHours": 1926.9
+    },
+    {
+        "country": "China",
+        "city": "Ningbo",
+        "monthlySunshineHours": [
+            123.7,
+            108.4,
+            121.7,
+            142.4,
+            156.7,
+            147.8,
+            243.8,
+            238.0,
+            171.5,
+            166.5,
+            143.4,
+            146.1
+        ],
+        "annualSunshineHours": 1910.0
+    },
+    {
+        "country": "China",
+        "city": "Qingdao",
+        "monthlySunshineHours": [
+            186.0,
+            180.8,
+            220.1,
+            222.0,
+            244.9,
+            219.0,
+            182.9,
+            223.2,
+            219.0,
+            220.1,
+            189.0,
+            182.9
+        ],
+        "annualSunshineHours": 2489.9
+    },
+    {
+        "country": "China",
+        "city": "Shanghai",
+        "monthlySunshineHours": [
+            114.3,
+            119.9,
+            128.5,
+            148.5,
+            169.8,
+            130.9,
+            190.8,
+            185.7,
+            167.5,
+            161.4,
+            131.1,
+            127.4
+        ],
+        "annualSunshineHours": 1775.8
+    },
+    {
+        "country": "China",
+        "city": "Tianjin",
+        "monthlySunshineHours": [
+            170.1,
+            170.2,
+            202.4,
+            223.8,
+            249.0,
+            226.9,
+            206.4,
+            204.4,
+            205.3,
+            196.1,
+            163.0,
+            157.6
+        ],
+        "annualSunshineHours": 2375.2
+    },
+    {
+        "country": "China",
+        "city": "\u00dcr\u00fcmqi",
+        "monthlySunshineHours": [
+            101.6,
+            128.8,
+            180.5,
+            248.0,
+            283.3,
+            282.7,
+            298.7,
+            301.0,
+            262.6,
+            224.4,
+            127.4,
+            84.3
+        ],
+        "annualSunshineHours": 2523.3
+    },
+    {
+        "country": "China",
+        "city": "Wuhan",
+        "monthlySunshineHours": [
+            101.9,
+            97.0,
+            121.8,
+            152.8,
+            181.0,
+            170.9,
+            220.2,
+            226.4,
+            175.8,
+            151.9,
+            139.3,
+            126.5
+        ],
+        "annualSunshineHours": 1775.8
+    },
+    {
+        "country": "China",
+        "city": "Xiamen",
+        "monthlySunshineHours": [
+            133.3,
+            88.3,
+            89.6,
+            105.6,
+            132.6,
+            163.8,
+            234.6,
+            211.6,
+            178.9,
+            188.4,
+            163.0,
+            163.5
+        ],
+        "annualSunshineHours": 1853.2
+    },
+    {
+        "country": "India",
+        "city": "Delhi",
+        "monthlySunshineHours": [
+            214.6,
+            216.1,
+            239.1,
+            261.0,
+            263.1,
+            196.5,
+            165.9,
+            177.0,
+            219.0,
+            269.3,
+            247.2,
+            215.8
+        ],
+        "annualSunshineHours": 2684.6
+    },
+    {
+        "country": "India",
+        "city": "Kolkata",
+        "monthlySunshineHours": [
+            203.9,
+            201.2,
+            225.8,
+            235.4,
+            227.1,
+            123.1,
+            93.1,
+            104.9,
+            116.2,
+            182.6,
+            190.8,
+            203.4
+        ],
+        "annualSunshineHours": 2107.5
+    },
+    {
+        "country": "India",
+        "city": "Mumbai",
+        "monthlySunshineHours": [
+            269.5,
+            257.6,
+            274.3,
+            283.7,
+            296.2,
+            148.6,
+            73.4,
+            75.9,
+            165.1,
+            240.2,
+            245.8,
+            253.2
+        ],
+        "annualSunshineHours": 2583.5
+    },
+    {
+        "country": "India",
+        "city": "Bangalore",
+        "monthlySunshineHours": [
+            262.0,
+            248.0,
+            271.0,
+            257.0,
+            241.0,
+            137.0,
+            112.0,
+            114.0,
+            144.0,
+            173.0,
+            190.0,
+            212.0
+        ],
+        "annualSunshineHours": 2361.0
+    },
+    {
+        "country": "India",
+        "city": "Chennai",
+        "monthlySunshineHours": [
+            232.5,
+            240.1,
+            291.4,
+            294.0,
+            300.7,
+            234.0,
+            142.6,
+            189.1,
+            195.0,
+            257.3,
+            261.0,
+            210.8
+        ],
+        "annualSunshineHours": 2848.5
+    },
+    {
+        "country": "Indonesia",
+        "city": "Denpasar",
+        "monthlySunshineHours": [
+            173.1,
+            174.0,
+            210.7,
+            224.7,
+            242.9,
+            228.1,
+            246.8,
+            261.7,
+            251.3,
+            252.5,
+            224.4,
+            176.4
+        ],
+        "annualSunshineHours": 2666.6
+    },
+    {
+        "country": "Indonesia",
+        "city": "Jakarta",
+        "monthlySunshineHours": [
+            189.1,
+            180.8,
+            238.7,
+            255.0,
+            260.4,
+            255.0,
+            282.1,
+            294.5,
+            300.7,
+            279.0,
+            231.0,
+            217.0
+        ],
+        "annualSunshineHours": 2983.3
+    },
+    {
+        "country": "Indonesia",
+        "city": "Makassar",
+        "monthlySunshineHours": [
+            155.0,
+            168.0,
+            186.0,
+            240.0,
+            248.0,
+            241.0,
+            270.0,
+            298.0,
+            300.0,
+            305.0,
+            280.0,
+            158.0
+        ],
+        "annualSunshineHours": 2849.0
+    },
+    {
+        "country": "Indonesia",
+        "city": "Medan",
+        "monthlySunshineHours": [
+            129.6,
+            141.0,
+            153.1,
+            131.2,
+            134.8,
+            157.9,
+            153.9,
+            143.9,
+            123.1,
+            116.3,
+            104.8,
+            98.1
+        ],
+        "annualSunshineHours": 1587.7
+    },
+    {
+        "country": "Iran",
+        "city": "Bandar Abbas",
+        "monthlySunshineHours": [
+            222.8,
+            210.8,
+            227.0,
+            254.9,
+            312.9,
+            303.5,
+            270.2,
+            271.6,
+            265.9,
+            281.9,
+            251.4,
+            227.6
+        ],
+        "annualSunshineHours": 3242.3
+    },
+    {
+        "country": "Iran",
+        "city": "Gorgan",
+        "monthlySunshineHours": [
+            147.0,
+            132.0,
+            145.0,
+            166.0,
+            226.0,
+            248.0,
+            243.0,
+            256.0,
+            217.0,
+            206.0,
+            159.0,
+            142.0
+        ],
+        "annualSunshineHours": 2287.0
+    },
+    {
+        "country": "Iran",
+        "city": "Isfahan",
+        "monthlySunshineHours": [
+            204.6,
+            216.6,
+            246.4,
+            250.9,
+            308.3,
+            348.8,
+            349.3,
+            341.1,
+            312.5,
+            281.3,
+            223.7,
+            196.3
+        ],
+        "annualSunshineHours": 3279.8
+    },
+    {
+        "country": "Iran",
+        "city": "Mashhad",
+        "monthlySunshineHours": [
+            148.3,
+            147.5,
+            163.3,
+            200.4,
+            280.4,
+            343.2,
+            366.9,
+            359.7,
+            305.2,
+            249.5,
+            188.3,
+            151.6
+        ],
+        "annualSunshineHours": 2904.3
+    },
+    {
+        "country": "Iran",
+        "city": "Rasht",
+        "monthlySunshineHours": [
+            91.7,
+            86.7,
+            91.2,
+            122.0,
+            174.0,
+            213.2,
+            222.1,
+            187.7,
+            140.2,
+            118.3,
+            100.2,
+            89.6
+        ],
+        "annualSunshineHours": 1636.9
+    },
+    {
+        "country": "Iran",
+        "city": "Tabriz",
+        "monthlySunshineHours": [
+            123.5,
+            146.1,
+            179.5,
+            201.3,
+            269.5,
+            336.7,
+            353.6,
+            339.5,
+            303.3,
+            231.8,
+            177.3,
+            132.0
+        ],
+        "annualSunshineHours": 2794.3
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "monthlySunshineHours": [
+            137.2,
+            151.1,
+            186.0,
+            219.1,
+            279.8,
+            328.7,
+            336.6,
+            336.8,
+            300.5,
+            246.8,
+            169.4,
+            134.1
+        ],
+        "annualSunshineHours": 2826.1
+    },
+    {
+        "country": "Iraq",
+        "city": "Baghdad",
+        "monthlySunshineHours": [
+            192.2,
+            203.3,
+            244.9,
+            255.0,
+            300.7,
+            348.0,
+            347.2,
+            353.4,
+            315.0,
+            272.8,
+            213.0,
+            195.3
+        ],
+        "annualSunshineHours": 3240.8
+    },
+    {
+        "country": "Israel",
+        "city": "Tel Aviv",
+        "monthlySunshineHours": [
+            192.2,
+            200.1,
+            235.6,
+            270.0,
+            328.6,
+            357.0,
+            368.9,
+            356.5,
+            300.0,
+            279.0,
+            234.0,
+            189.1
+        ],
+        "annualSunshineHours": 3311.0
+    },
+    {
+        "country": "Japan",
+        "city": "Sapporo",
+        "monthlySunshineHours": [
+            92.5,
+            104.0,
+            146.6,
+            176.5,
+            198.4,
+            187.8,
+            164.9,
+            171.0,
+            160.5,
+            152.3,
+            100.0,
+            85.9
+        ],
+        "annualSunshineHours": 1740.4
+    },
+    {
+        "country": "Japan",
+        "city": "Sendai",
+        "monthlySunshineHours": [
+            149.0,
+            154.7,
+            178.6,
+            193.7,
+            191.9,
+            143.7,
+            126.3,
+            144.5,
+            128.0,
+            147.0,
+            143.4,
+            136.3
+        ],
+        "annualSunshineHours": 1836.9
+    },
+    {
+        "country": "Japan",
+        "city": "Tokyo",
+        "monthlySunshineHours": [
+            184.5,
+            165.8,
+            163.1,
+            176.9,
+            167.8,
+            125.4,
+            146.4,
+            169.0,
+            120.9,
+            131.0,
+            147.9,
+            178.0
+        ],
+        "annualSunshineHours": 1876.7
+    },
+    {
+        "country": "Japan",
+        "city": "Kanazawa",
+        "monthlySunshineHours": [
+            62.3,
+            86.5,
+            144.8,
+            184.8,
+            207.2,
+            162.5,
+            167.2,
+            215.9,
+            153.6,
+            152.0,
+            108.6,
+            68.9
+        ],
+        "annualSunshineHours": 1714.1
+    },
+    {
+        "country": "Japan",
+        "city": "Nagoya",
+        "monthlySunshineHours": [
+            174.5,
+            175.5,
+            199.7,
+            200.2,
+            205.5,
+            151.8,
+            166.0,
+            201.3,
+            159.6,
+            168.9,
+            167.1,
+            170.3
+        ],
+        "annualSunshineHours": 2141.0
+    },
+    {
+        "country": "Jordan",
+        "city": "Amman",
+        "monthlySunshineHours": [
+            179.8,
+            182.0,
+            226.3,
+            266.6,
+            328.6,
+            369.0,
+            387.5,
+            365.8,
+            312.0,
+            275.9,
+            225.0,
+            179.8
+        ],
+        "annualSunshineHours": 3289.7
+    },
+    {
+        "country": "Kazakhstan",
+        "city": "Almaty",
+        "monthlySunshineHours": [
+            118.0,
+            119.0,
+            147.0,
+            194.0,
+            241.0,
+            280.0,
+            306.0,
+            294.0,
+            245.0,
+            184.0,
+            127.0,
+            101.0
+        ],
+        "annualSunshineHours": 2356.0
+    },
+    {
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "monthlySunshineHours": [
+            103.0,
+            147.0,
+            192.0,
+            238.0,
+            301.0,
+            336.0,
+            336.0,
+            294.0,
+            230.0,
+            136.0,
+            100.0,
+            94.0
+        ],
+        "annualSunshineHours": 2507.0
+    },
+    {
+        "country": "Mongolia",
+        "city": "Ulaanbaatar",
+        "monthlySunshineHours": [
+            179.1,
+            204.8,
+            265.2,
+            262.5,
+            299.3,
+            269.0,
+            249.3,
+            258.3,
+            245.7,
+            227.5,
+            177.4,
+            156.4
+        ],
+        "annualSunshineHours": 2791.5
+    },
+    {
+        "country": "North Korea",
+        "city": "Pyongyang",
+        "monthlySunshineHours": [
+            184.0,
+            197.0,
+            231.0,
+            237.0,
+            263.0,
+            229.0,
+            181.0,
+            204.0,
+            222.0,
+            214.0,
+            165.0,
+            165.0
+        ],
+        "annualSunshineHours": 2492.0
+    },
+    {
+        "country": "Oman",
+        "city": "Muscat",
+        "monthlySunshineHours": [
+            268.6,
+            244.8,
+            278.3,
+            292.5,
+            347.4,
+            325.7,
+            277.7,
+            278.6,
+            303.9,
+            316.9,
+            291.9,
+            267.0
+        ],
+        "annualSunshineHours": 3493.3
+    },
+    {
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "monthlySunshineHours": [
+            195.7,
+            187.1,
+            202.3,
+            252.4,
+            319.0,
+            300.1,
+            264.4,
+            250.7,
+            262.2,
+            275.5,
+            247.9,
+            195.6
+        ],
+        "annualSunshineHours": 2952.9
+    },
+    {
+        "country": "Pakistan",
+        "city": "Karachi",
+        "monthlySunshineHours": [
+            270.7,
+            249.4,
+            271.6,
+            277.4,
+            299.1,
+            231.8,
+            155.0,
+            147.7,
+            218.8,
+            283.5,
+            273.3,
+            272.0
+        ],
+        "annualSunshineHours": 2950.3
+    },
+    {
+        "country": "Pakistan",
+        "city": "Lahore",
+        "monthlySunshineHours": [
+            218.8,
+            215.0,
+            245.8,
+            276.6,
+            308.3,
+            269.0,
+            227.5,
+            234.9,
+            265.6,
+            290.0,
+            259.6,
+            222.9
+        ],
+        "annualSunshineHours": 3034.0
+    },
+    {
+        "country": "Pakistan",
+        "city": "Quetta",
+        "monthlySunshineHours": [
+            229.1,
+            209.95,
+            232.5,
+            273.0,
+            334.8,
+            327.0,
+            313.1,
+            313.1,
+            294.0,
+            306.9,
+            279.0,
+            238.7
+        ],
+        "annualSunshineHours": 3341.25
+    },
+    {
+        "country": "Philippines",
+        "city": "Manila",
+        "monthlySunshineHours": [
+            176.7,
+            197.8,
+            225.8,
+            258.0,
+            222.7,
+            162.0,
+            132.8,
+            132.8,
+            132.0,
+            157.6,
+            153.0,
+            151.9
+        ],
+        "annualSunshineHours": 2103.1
+    },
+    {
+        "country": "Russia",
+        "city": "Dikson",
+        "monthlySunshineHours": [
+            0.0,
+            22.6,
+            127.1,
+            237.0,
+            189.1,
+            141.0,
+            223.2,
+            139.5,
+            60.0,
+            24.8,
+            0.0,
+            0.0
+        ],
+        "annualSunshineHours": 1164.3
+    },
+    {
+        "country": "Russia",
+        "city": "Irkutsk",
+        "monthlySunshineHours": [
+            93.0,
+            149.0,
+            207.0,
+            223.0,
+            266.0,
+            264.0,
+            243.0,
+            218.0,
+            182.0,
+            152.0,
+            93.0,
+            62.0
+        ],
+        "annualSunshineHours": 2142.0
+    },
+    {
+        "country": "Russia",
+        "city": "Omsk",
+        "monthlySunshineHours": [
+            68.0,
+            125.0,
+            184.0,
+            235.0,
+            284.0,
+            319.0,
+            321.0,
+            248.0,
+            180.0,
+            105.0,
+            71.0,
+            61.0
+        ],
+        "annualSunshineHours": 2201.0
+    },
+    {
+        "country": "Russia",
+        "city": "Petropavlovsk-Kamchatsky",
+        "monthlySunshineHours": [
+            105.4,
+            115.8,
+            176.7,
+            192.0,
+            192.2,
+            192.0,
+            170.5,
+            176.7,
+            177.0,
+            158.1,
+            123.0,
+            93.0
+        ],
+        "annualSunshineHours": 1872.4
+    },
+    {
+        "country": "Russia",
+        "city": "Vladivostok",
+        "monthlySunshineHours": [
+            178.0,
+            184.0,
+            216.0,
+            192.0,
+            199.0,
+            130.0,
+            122.0,
+            149.0,
+            197.0,
+            205.0,
+            168.0,
+            156.0
+        ],
+        "annualSunshineHours": 2096.0
+    },
+    {
+        "country": "Russia",
+        "city": "Yakutsk",
+        "monthlySunshineHours": [
+            18.6,
+            98.0,
+            232.5,
+            273.0,
+            303.8,
+            333.0,
+            347.2,
+            272.8,
+            174.0,
+            105.4,
+            60.0,
+            9.3
+        ],
+        "annualSunshineHours": 2227.6
+    },
+    {
+        "country": "Saudi Arabia",
+        "city": "Abha",
+        "monthlySunshineHours": [
+            266.6,
+            265.6,
+            294.5,
+            282.0,
+            288.3,
+            276.0,
+            232.5,
+            238.7,
+            273.0,
+            291.4,
+            273.0,
+            266.6
+        ],
+        "annualSunshineHours": 3248.2
+    },
+    {
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "monthlySunshineHours": [
+            212.4,
+            226.6,
+            219.8,
+            242.3,
+            287.7,
+            328.2,
+            332.1,
+            309.2,
+            271.6,
+            311.4,
+            269.2,
+            214.3
+        ],
+        "annualSunshineHours": 3224.8
+    },
+    {
+        "country": "Singapore",
+        "city": "Singapore",
+        "monthlySunshineHours": [
+            172.4,
+            183.2,
+            192.7,
+            173.6,
+            179.8,
+            177.7,
+            187.9,
+            180.6,
+            156.2,
+            155.2,
+            129.6,
+            133.5
+        ],
+        "annualSunshineHours": 2022.4
+    },
+    {
+        "country": "South Korea",
+        "city": "Busan",
+        "monthlySunshineHours": [
+            199.0,
+            182.5,
+            193.0,
+            210.0,
+            221.7,
+            179.7,
+            165.8,
+            200.9,
+            167.2,
+            208.9,
+            194.4,
+            204.3
+        ],
+        "annualSunshineHours": 2327.3
+    },
+    {
+        "country": "South Korea",
+        "city": "Seoul",
+        "monthlySunshineHours": [
+            160.3,
+            163.3,
+            189.0,
+            205.0,
+            213.0,
+            182.0,
+            120.0,
+            152.5,
+            176.2,
+            198.8,
+            153.2,
+            152.6
+        ],
+        "annualSunshineHours": 2066.0
+    },
+    {
+        "country": "Sri Lanka",
+        "city": "Colombo",
+        "monthlySunshineHours": [
+            248.0,
+            246.4,
+            275.9,
+            234.0,
+            201.5,
+            195.0,
+            201.5,
+            201.5,
+            189.0,
+            201.5,
+            210.0,
+            217.0
+        ],
+        "annualSunshineHours": 2621.3
+    },
+    {
+        "country": "Taiwan",
+        "city": "Kaohsiung",
+        "monthlySunshineHours": [
+            174.7,
+            165.8,
+            187.0,
+            189.1,
+            198.5,
+            199.9,
+            221.4,
+            193.7,
+            175.7,
+            182.4,
+            162.2,
+            161.8
+        ],
+        "annualSunshineHours": 2212.2
+    },
+    {
+        "country": "Taiwan",
+        "city": "Taichung",
+        "monthlySunshineHours": [
+            176.6,
+            140.6,
+            149.9,
+            137.8,
+            158.7,
+            160.1,
+            199.6,
+            178.7,
+            175.8,
+            203.7,
+            179.4,
+            182.3
+        ],
+        "annualSunshineHours": 2043.2
+    },
+    {
+        "country": "Taiwan",
+        "city": "Taipei",
+        "monthlySunshineHours": [
+            76.1,
+            79.3,
+            95.1,
+            96.9,
+            113.6,
+            114.8,
+            176.9,
+            182.8,
+            151.7,
+            114.7,
+            93.3,
+            78.6
+        ],
+        "annualSunshineHours": 1373.8
+    },
+    {
+        "country": "Thailand",
+        "city": "Bangkok",
+        "monthlySunshineHours": [
+            272.5,
+            249.9,
+            269.0,
+            256.7,
+            216.4,
+            178.0,
+            171.8,
+            160.3,
+            154.9,
+            198.1,
+            234.2,
+            262.0
+        ],
+        "annualSunshineHours": 2623.8
+    },
+    {
+        "country": "Thailand",
+        "city": "Chiang Mai",
+        "monthlySunshineHours": [
+            272.8,
+            257.1,
+            294.5,
+            279.0,
+            198.4,
+            156.0,
+            120.9,
+            117.8,
+            144.0,
+            201.5,
+            216.0,
+            254.2
+        ],
+        "annualSunshineHours": 2512.2
+    },
+    {
+        "country": "Thailand",
+        "city": "Hat Yai",
+        "monthlySunshineHours": [
+            182.9,
+            166.7,
+            186.0,
+            144.0,
+            114.7,
+            111.0,
+            114.7,
+            114.7,
+            108.0,
+            111.6,
+            105.0,
+            108.5
+        ],
+        "annualSunshineHours": 1567.8
+    },
+    {
+        "country": "Thailand",
+        "city": "Nakhon Ratchasima",
+        "monthlySunshineHours": [
+            226.3,
+            211.9,
+            201.5,
+            186.0,
+            155.0,
+            114.0,
+            117.8,
+            117.8,
+            108.0,
+            145.7,
+            186.0,
+            226.3
+        ],
+        "annualSunshineHours": 1996.3
+    },
+    {
+        "country": "Turkey",
+        "city": "Ankara",
+        "monthlySunshineHours": [
+            77.5,
+            98.9,
+            161.2,
+            189.0,
+            260.4,
+            306.0,
+            350.3,
+            328.6,
+            276.0,
+            198.4,
+            132.0,
+            71.3
+        ],
+        "annualSunshineHours": 2449.6
+    },
+    {
+        "country": "Turkey",
+        "city": "Adana",
+        "monthlySunshineHours": [
+            132.7,
+            144.2,
+            180.2,
+            206.1,
+            265.6,
+            296.4,
+            311.5,
+            292.4,
+            259.4,
+            223.3,
+            169.3,
+            122.2
+        ],
+        "annualSunshineHours": 2603.2
+    },
+    {
+        "country": "Turkey",
+        "city": "Denizli",
+        "monthlySunshineHours": [
+            111.6,
+            130.0,
+            173.6,
+            207.0,
+            272.8,
+            321.0,
+            359.6,
+            325.5,
+            264.0,
+            207.7,
+            147.0,
+            102.3
+        ],
+        "annualSunshineHours": 2622.1
+    },
+    {
+        "country": "Turkey",
+        "city": "Trabzon",
+        "monthlySunshineHours": [
+            71.3,
+            84.8,
+            99.2,
+            135.0,
+            170.5,
+            192.0,
+            176.6,
+            151.9,
+            147.0,
+            127.1,
+            105.0,
+            65.1
+        ],
+        "annualSunshineHours": 1525.6
+    },
+    {
+        "country": "United ArabEmirates",
+        "city": "Dubai",
+        "monthlySunshineHours": [
+            254.2,
+            229.6,
+            254.2,
+            294.0,
+            344.1,
+            342.0,
+            322.4,
+            316.2,
+            309.0,
+            303.8,
+            285.0,
+            254.2
+        ],
+        "annualSunshineHours": 3508.7
+    },
+    {
+        "country": "Uzbekistan",
+        "city": "Andijan",
+        "monthlySunshineHours": [
+            62.1,
+            95.1,
+            153.2,
+            217.1,
+            291.2,
+            331.0,
+            357.7,
+            339.0,
+            282.9,
+            210.8,
+            116.4,
+            64.4
+        ],
+        "annualSunshineHours": 2520.9
+    },
+    {
+        "country": "Uzbekistan",
+        "city": "Tashkent",
+        "monthlySunshineHours": [
+            117.8,
+            127.1,
+            164.3,
+            216.0,
+            303.8,
+            363.0,
+            384.4,
+            365.8,
+            300.0,
+            226.3,
+            150.0,
+            105.4
+        ],
+        "annualSunshineHours": 2823.9
+    },
+    {
+        "country": "Vietnam",
+        "city": "Da Lat",
+        "monthlySunshineHours": [
+            255.0,
+            234.0,
+            255.0,
+            202.0,
+            190.0,
+            147.0,
+            157.0,
+            136.0,
+            133.0,
+            140.0,
+            172.0,
+            215.0
+        ],
+        "annualSunshineHours": 2238.0
+    },
+    {
+        "country": "Vietnam",
+        "city": "Da Nang",
+        "monthlySunshineHours": [
+            139.0,
+            145.0,
+            188.0,
+            209.0,
+            246.0,
+            239.0,
+            253.0,
+            218.0,
+            176.0,
+            145.0,
+            120.0,
+            103.0
+        ],
+        "annualSunshineHours": 2182.0
+    },
+    {
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "monthlySunshineHours": [
+            68.7,
+            48.1,
+            45.5,
+            87.4,
+            173.7,
+            167.0,
+            181.1,
+            163.0,
+            162.4,
+            150.3,
+            131.6,
+            113.0
+        ],
+        "annualSunshineHours": 1488.5
+    },
+    {
+        "country": "Vietnam",
+        "city": "Ho Chi Minh City",
+        "monthlySunshineHours": [
+            245.0,
+            246.0,
+            272.0,
+            239.0,
+            195.0,
+            171.0,
+            180.0,
+            172.0,
+            162.0,
+            182.0,
+            200.0,
+            226.0
+        ],
+        "annualSunshineHours": 2489.0
+    },
+    {
+        "country": "Albania",
+        "city": "Tirana",
+        "monthlySunshineHours": [
+            124.0,
+            125.0,
+            165.0,
+            191.0,
+            263.0,
+            298.0,
+            354.0,
+            327.0,
+            264.0,
+            218.0,
+            127.0,
+            88.0
+        ],
+        "annualSunshineHours": 2544.0
+    },
+    {
+        "country": "Armenia",
+        "city": "Yerevan",
+        "monthlySunshineHours": [
+            93.0,
+            108.0,
+            162.0,
+            177.0,
+            242.0,
+            297.0,
+            343.0,
+            332.0,
+            278.0,
+            212.0,
+            138.0,
+            92.0
+        ],
+        "annualSunshineHours": 2474.0
+    },
+    {
+        "country": "Austria",
+        "city": "Vienna",
+        "monthlySunshineHours": [
+            70.0,
+            104.0,
+            155.0,
+            217.0,
+            249.0,
+            259.0,
+            273.0,
+            266.0,
+            194.0,
+            133.0,
+            71.0,
+            57.0
+        ],
+        "annualSunshineHours": 2048.0
+    },
+    {
+        "country": "Belarus",
+        "city": "Minsk",
+        "monthlySunshineHours": [
+            26.0,
+            72.0,
+            133.0,
+            194.0,
+            256.0,
+            267.0,
+            271.0,
+            230.0,
+            162.0,
+            103.0,
+            39.0,
+            18.0
+        ],
+        "annualSunshineHours": 1807.0
+    },
+    {
+        "country": "Azerbaijan",
+        "city": "Baku",
+        "monthlySunshineHours": [
+            89.9,
+            89.0,
+            124.0,
+            195.0,
+            257.3,
+            294.0,
+            313.1,
+            282.1,
+            222.0,
+            145.7,
+            93.0,
+            102.3
+        ],
+        "annualSunshineHours": 2207.4
+    },
+    {
+        "country": "Azerbaijan",
+        "city": "Astara",
+        "monthlySunshineHours": [
+            113.3,
+            99.4,
+            110.9,
+            152.4,
+            208.9,
+            268.3,
+            284.9,
+            248.5,
+            185.9,
+            127.3,
+            101.5,
+            110.9
+        ],
+        "annualSunshineHours": 2012.2
+    },
+    {
+        "country": "Belgium",
+        "city": "Brussels",
+        "monthlySunshineHours": [
+            59.0,
+            77.0,
+            114.0,
+            159.0,
+            191.0,
+            188.0,
+            201.0,
+            190.0,
+            143.0,
+            113.0,
+            66.0,
+            45.0
+        ],
+        "annualSunshineHours": 1546.0
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "city": "Sarajevo",
+        "monthlySunshineHours": [
+            57.0,
+            84.0,
+            126.0,
+            152.0,
+            192.0,
+            207.0,
+            256.0,
+            238.0,
+            187.0,
+            149.0,
+            81.0,
+            41.0
+        ],
+        "annualSunshineHours": 1769.0
+    },
+    {
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "monthlySunshineHours": [
+            88.0,
+            114.0,
+            160.0,
+            182.0,
+            230.0,
+            258.0,
+            302.0,
+            288.0,
+            220.0,
+            164.0,
+            106.0,
+            66.0
+        ],
+        "annualSunshineHours": 2177.0
+    },
+    {
+        "country": "Croatia",
+        "city": "Zagreb",
+        "monthlySunshineHours": [
+            59.0,
+            96.0,
+            140.0,
+            175.0,
+            234.0,
+            244.0,
+            281.0,
+            256.0,
+            187.0,
+            131.0,
+            66.0,
+            45.0
+        ],
+        "annualSunshineHours": 1913.0
+    },
+    {
+        "country": "Croatia",
+        "city": "Split",
+        "monthlySunshineHours": [
+            133.0,
+            153.0,
+            186.0,
+            210.0,
+            273.0,
+            306.0,
+            347.0,
+            320.0,
+            246.0,
+            192.0,
+            135.0,
+            130.0
+        ],
+        "annualSunshineHours": 2631.0
+    },
+    {
+        "country": "Czech Republic",
+        "city": "Prague",
+        "monthlySunshineHours": [
+            50.0,
+            72.0,
+            125.0,
+            168.0,
+            214.0,
+            218.0,
+            226.0,
+            212.0,
+            161.0,
+            121.0,
+            54.0,
+            47.0
+        ],
+        "annualSunshineHours": 1668.0
+    },
+    {
+        "country": "Cyprus",
+        "city": "Nicosia",
+        "monthlySunshineHours": [
+            182.9,
+            200.1,
+            238.7,
+            267.0,
+            331.7,
+            369.0,
+            387.5,
+            365.8,
+            312.0,
+            275.9,
+            213.0,
+            170.5
+        ],
+        "annualSunshineHours": 3314.1
+    },
+    {
+        "country": "Denmark",
+        "city": "Aarhus",
+        "monthlySunshineHours": [
+            54.0,
+            72.0,
+            148.0,
+            213.0,
+            260.0,
+            251.0,
+            242.0,
+            211.0,
+            161.0,
+            101.0,
+            60.0,
+            49.0
+        ],
+        "annualSunshineHours": 1821.0
+    },
+    {
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "monthlySunshineHours": [
+            56.0,
+            83.0,
+            152.0,
+            226.0,
+            271.0,
+            260.0,
+            246.0,
+            231.0,
+            175.0,
+            107.0,
+            60.0,
+            45.0
+        ],
+        "annualSunshineHours": 1912.0
+    },
+    {
+        "country": "Denmark",
+        "city": "R\u00f8nne",
+        "monthlySunshineHours": [
+            43.0,
+            76.0,
+            152.0,
+            247.0,
+            311.0,
+            315.0,
+            282.0,
+            252.0,
+            192.0,
+            104.0,
+            53.0,
+            37.0
+        ],
+        "annualSunshineHours": 2063.0
+    },
+    {
+        "country": "Estonia",
+        "city": "Tallinn",
+        "monthlySunshineHours": [
+            30.0,
+            59.0,
+            148.0,
+            217.0,
+            306.0,
+            294.0,
+            312.0,
+            256.0,
+            162.0,
+            88.0,
+            29.0,
+            20.0
+        ],
+        "annualSunshineHours": 1923.0
+    },
+    {
+        "country": "Estonia",
+        "city": "Vilsandi",
+        "monthlySunshineHours": [
+            37.0,
+            69.0,
+            150.0,
+            226.0,
+            316.0,
+            314.0,
+            330.0,
+            271.0,
+            176.0,
+            100.0,
+            38.0,
+            24.0
+        ],
+        "annualSunshineHours": 2066.0
+    },
+    {
+        "country": "Faroe Islands",
+        "city": "T\u00f3rshavn",
+        "monthlySunshineHours": [
+            29.8,
+            53.0,
+            91.5,
+            116.2,
+            157.8,
+            135.4,
+            106.9,
+            101.6,
+            88.9,
+            59.7,
+            38.6,
+            22.7
+        ],
+        "annualSunshineHours": 1002.1
+    },
+    {
+        "country": "Finland",
+        "city": "Helsinki",
+        "monthlySunshineHours": [
+            25.0,
+            68.0,
+            138.0,
+            220.0,
+            283.0,
+            297.0,
+            291.0,
+            235.0,
+            150.0,
+            80.0,
+            30.0,
+            21.0
+        ],
+        "annualSunshineHours": 1838.0
+    },
+    {
+        "country": "France",
+        "city": "Lyon",
+        "monthlySunshineHours": [
+            74.0,
+            101.0,
+            170.0,
+            191.0,
+            221.0,
+            254.0,
+            283.0,
+            253.0,
+            195.0,
+            130.0,
+            76.0,
+            54.0
+        ],
+        "annualSunshineHours": 2002.0
+    },
+    {
+        "country": "France",
+        "city": "Marseille",
+        "monthlySunshineHours": [
+            150.0,
+            156.0,
+            215.0,
+            245.0,
+            293.0,
+            326.0,
+            366.0,
+            327.0,
+            254.0,
+            205.0,
+            156.0,
+            143.0
+        ],
+        "annualSunshineHours": 2836.0
+    },
+    {
+        "country": "France",
+        "city": "Nice",
+        "monthlySunshineHours": [
+            156.7,
+            166.1,
+            218.0,
+            229.2,
+            270.9,
+            309.8,
+            349.3,
+            223.2,
+            249.8,
+            191.1,
+            151.5,
+            145.2
+        ],
+        "annualSunshineHours": 2760.5
+    },
+    {
+        "country": "France",
+        "city": "Paris",
+        "monthlySunshineHours": [
+            59.0,
+            84.0,
+            135.0,
+            178.0,
+            201.0,
+            204.0,
+            223.0,
+            216.0,
+            175.0,
+            119.0,
+            70.0,
+            57.0
+        ],
+        "annualSunshineHours": 1717.0
+    },
+    {
+        "country": "France",
+        "city": "Toulouse",
+        "monthlySunshineHours": [
+            89.0,
+            118.0,
+            175.0,
+            188.0,
+            212.0,
+            232.0,
+            259.0,
+            246.0,
+            210.0,
+            155.0,
+            100.0,
+            90.0
+        ],
+        "annualSunshineHours": 2075.0
+    },
+    {
+        "country": "Georgia",
+        "city": "Tbilisi",
+        "monthlySunshineHours": [
+            99.0,
+            102.0,
+            142.0,
+            171.0,
+            213.0,
+            249.0,
+            256.0,
+            248.0,
+            206.0,
+            164.0,
+            103.0,
+            93.0
+        ],
+        "annualSunshineHours": 2046.0
+    },
+    {
+        "country": "Germany",
+        "city": "Berlin",
+        "monthlySunshineHours": [
+            47.0,
+            74.0,
+            121.0,
+            159.0,
+            220.0,
+            222.0,
+            217.0,
+            211.0,
+            156.0,
+            112.0,
+            51.0,
+            37.0
+        ],
+        "annualSunshineHours": 1626.0
+    },
+    {
+        "country": "Germany",
+        "city": "Frankfurt",
+        "monthlySunshineHours": [
+            50.0,
+            80.0,
+            121.0,
+            178.0,
+            211.0,
+            219.0,
+            233.0,
+            219.0,
+            156.0,
+            103.0,
+            51.0,
+            41.0
+        ],
+        "annualSunshineHours": 1662.0
+    },
+    {
+        "country": "Greece",
+        "city": "Athens",
+        "monthlySunshineHours": [
+            130.0,
+            134.0,
+            183.0,
+            231.0,
+            291.0,
+            336.0,
+            363.0,
+            341.0,
+            276.0,
+            208.0,
+            153.0,
+            127.0
+        ],
+        "annualSunshineHours": 2773.0
+    },
+    {
+        "country": "Hungary",
+        "city": "Budapest",
+        "monthlySunshineHours": [
+            62.0,
+            93.0,
+            137.0,
+            177.0,
+            234.0,
+            250.0,
+            271.0,
+            255.0,
+            187.0,
+            141.0,
+            69.0,
+            52.0
+        ],
+        "annualSunshineHours": 1988.0
+    },
+    {
+        "country": "Iceland",
+        "city": "Reykjav\u00edk",
+        "monthlySunshineHours": [
+            20.0,
+            60.0,
+            109.0,
+            164.0,
+            201.0,
+            174.0,
+            168.0,
+            155.0,
+            120.0,
+            93.0,
+            41.0,
+            22.0
+        ],
+        "annualSunshineHours": 1326.0
+    },
+    {
+        "country": "Ireland",
+        "city": "Dublin",
+        "monthlySunshineHours": [
+            59.0,
+            75.0,
+            109.0,
+            160.0,
+            195.0,
+            179.0,
+            164.0,
+            157.0,
+            129.0,
+            103.0,
+            71.0,
+            53.0
+        ],
+        "annualSunshineHours": 1453.0
+    },
+    {
+        "country": "Italy",
+        "city": "Cagliari",
+        "monthlySunshineHours": [
+            150.0,
+            163.0,
+            209.0,
+            218.0,
+            270.0,
+            311.0,
+            342.0,
+            321.0,
+            243.0,
+            209.0,
+            150.0,
+            127.0
+        ],
+        "annualSunshineHours": 2726.0
+    },
+    {
+        "country": "Italy",
+        "city": "Milan",
+        "monthlySunshineHours": [
+            59.0,
+            96.0,
+            152.0,
+            177.0,
+            211.0,
+            243.0,
+            285.0,
+            251.0,
+            186.0,
+            130.0,
+            66.0,
+            59.0
+        ],
+        "annualSunshineHours": 1915.0
+    },
+    {
+        "country": "Italy",
+        "city": "Naples",
+        "monthlySunshineHours": [
+            115.0,
+            128.0,
+            158.0,
+            189.0,
+            245.0,
+            279.0,
+            313.0,
+            295.0,
+            234.0,
+            189.0,
+            126.0,
+            105.0
+        ],
+        "annualSunshineHours": 2375.0
+    },
+    {
+        "country": "Italy",
+        "city": "Rome",
+        "monthlySunshineHours": [
+            121.0,
+            133.0,
+            167.0,
+            201.0,
+            264.0,
+            285.0,
+            332.0,
+            298.0,
+            237.0,
+            195.0,
+            129.0,
+            112.0
+        ],
+        "annualSunshineHours": 2473.0
+    },
+    {
+        "country": "Latvia",
+        "city": "Riga",
+        "monthlySunshineHours": [
+            31.0,
+            62.0,
+            127.0,
+            183.0,
+            264.0,
+            288.0,
+            264.0,
+            229.0,
+            153.0,
+            93.0,
+            39.0,
+            22.0
+        ],
+        "annualSunshineHours": 1754.0
+    },
+    {
+        "country": "Lithuania",
+        "city": "Vilnius",
+        "monthlySunshineHours": [
+            32.0,
+            57.0,
+            121.0,
+            179.0,
+            252.0,
+            246.0,
+            260.0,
+            237.0,
+            154.0,
+            95.0,
+            35.0,
+            23.0
+        ],
+        "annualSunshineHours": 1691.0
+    },
+    {
+        "country": "Luxembourg",
+        "city": "Luxembourg City",
+        "monthlySunshineHours": [
+            43.0,
+            82.0,
+            118.0,
+            165.0,
+            208.0,
+            210.0,
+            232.5,
+            208.0,
+            159.0,
+            108.5,
+            57.0,
+            43.0
+        ],
+        "annualSunshineHours": 1634.0
+    },
+    {
+        "country": "Malta",
+        "city": "Valletta",
+        "monthlySunshineHours": [
+            169.0,
+            178.0,
+            227.0,
+            254.0,
+            310.0,
+            337.0,
+            377.0,
+            352.0,
+            270.0,
+            224.0,
+            195.0,
+            161.0
+        ],
+        "annualSunshineHours": 3054.0
+    },
+    {
+        "country": "Moldova",
+        "city": "Chi\u0219in\u0103u",
+        "monthlySunshineHours": [
+            75.0,
+            80.0,
+            125.0,
+            187.0,
+            254.0,
+            283.0,
+            299.0,
+            295.0,
+            226.0,
+            169.0,
+            75.0,
+            58.0
+        ],
+        "annualSunshineHours": 2126.0
+    },
+    {
+        "country": "Monaco",
+        "city": "Monaco",
+        "monthlySunshineHours": [
+            149.8,
+            158.9,
+            185.5,
+            210.0,
+            248.1,
+            281.1,
+            329.3,
+            296.7,
+            224.7,
+            199.0,
+            155.2,
+            136.5
+        ],
+        "annualSunshineHours": 2575.0
+    },
+    {
+        "country": "Montenegro",
+        "city": "Podgorica",
+        "monthlySunshineHours": [
+            123.0,
+            126.0,
+            170.0,
+            194.0,
+            251.0,
+            276.0,
+            340.0,
+            314.0,
+            252.0,
+            201.0,
+            126.0,
+            109.0
+        ],
+        "annualSunshineHours": 2481.0
+    },
+    {
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "monthlySunshineHours": [
+            63.0,
+            88.0,
+            126.0,
+            183.0,
+            222.0,
+            206.0,
+            217.0,
+            197.0,
+            139.0,
+            109.0,
+            62.0,
+            51.0
+        ],
+        "annualSunshineHours": 1662.0
+    },
+    {
+        "country": "Montenegro",
+        "city": "Podgorica",
+        "monthlySunshineHours": [
+            123.0,
+            126.0,
+            170.0,
+            194.0,
+            251.0,
+            276.0,
+            340.0,
+            314.0,
+            252.0,
+            201.0,
+            126.0,
+            109.0
+        ],
+        "annualSunshineHours": 2481.0
+    },
+    {
+        "country": "Netherlands",
+        "city": "Rijswijk",
+        "monthlySunshineHours": [
+            63.0,
+            88.0,
+            126.0,
+            183.0,
+            222.0,
+            206.0,
+            217.0,
+            197.0,
+            139.0,
+            109.0,
+            62.0,
+            51.0
+        ],
+        "annualSunshineHours": 1662.0
+    },
+    {
+        "country": "North Macedonia",
+        "city": "Skopje",
+        "monthlySunshineHours": [
+            87.0,
+            113.0,
+            161.0,
+            198.0,
+            245.0,
+            276.0,
+            323.0,
+            305.0,
+            248.0,
+            188.0,
+            115.0,
+            80.0
+        ],
+        "annualSunshineHours": 2339.0
+    },
+    {
+        "country": "Norway",
+        "city": "Bergen",
+        "monthlySunshineHours": [
+            19.0,
+            56.0,
+            94.0,
+            147.0,
+            186.0,
+            189.0,
+            167.0,
+            144.0,
+            86.0,
+            60.0,
+            27.0,
+            12.0
+        ],
+        "annualSunshineHours": 1187.0
+    },
+    {
+        "country": "Norway",
+        "city": "Oslo",
+        "monthlySunshineHours": [
+            40.0,
+            76.0,
+            126.0,
+            178.0,
+            220.0,
+            250.0,
+            246.0,
+            216.0,
+            144.0,
+            86.0,
+            51.0,
+            35.0
+        ],
+        "annualSunshineHours": 1668.0
+    },
+    {
+        "country": "Norway",
+        "city": "Troms\u00f8",
+        "monthlySunshineHours": [
+            3.0,
+            32.0,
+            112.0,
+            160.0,
+            218.0,
+            221.0,
+            205.0,
+            167.0,
+            92.0,
+            49.0,
+            6.0,
+            0.0
+        ],
+        "annualSunshineHours": 1265.0
+    },
+    {
+        "country": "Poland",
+        "city": "Warsaw",
+        "monthlySunshineHours": [
+            44.6,
+            66.5,
+            139.4,
+            210.1,
+            272.4,
+            288.8,
+            295.4,
+            280.2,
+            193.1,
+            122.6,
+            50.6,
+            33.6
+        ],
+        "annualSunshineHours": 1997.0
+    },
+    {
+        "country": "Portugal",
+        "city": "Faro",
+        "monthlySunshineHours": [
+            172.0,
+            165.0,
+            234.0,
+            251.0,
+            314.0,
+            332.0,
+            368.0,
+            352.0,
+            273.0,
+            226.0,
+            182.0,
+            167.0
+        ],
+        "annualSunshineHours": 3036.0
+    },
+    {
+        "country": "Portugal",
+        "city": "Lisbon",
+        "monthlySunshineHours": [
+            143.0,
+            157.0,
+            208.0,
+            234.0,
+            291.0,
+            303.0,
+            353.0,
+            344.0,
+            261.0,
+            214.0,
+            156.0,
+            143.0
+        ],
+        "annualSunshineHours": 2806.0
+    },
+    {
+        "country": "Portugal",
+        "city": "Porto",
+        "monthlySunshineHours": [
+            124.0,
+            129.0,
+            192.0,
+            217.0,
+            258.0,
+            274.0,
+            308.0,
+            295.0,
+            224.0,
+            184.0,
+            139.0,
+            124.0
+        ],
+        "annualSunshineHours": 2468.0
+    },
+    {
+        "country": "Romania",
+        "city": "Bucharest",
+        "monthlySunshineHours": [
+            71.0,
+            85.0,
+            140.0,
+            186.0,
+            245.0,
+            267.0,
+            288.0,
+            282.0,
+            225.0,
+            177.0,
+            87.0,
+            62.0
+        ],
+        "annualSunshineHours": 2115.0
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "monthlySunshineHours": [
+            37.0,
+            65.0,
+            142.0,
+            213.0,
+            274.0,
+            299.0,
+            323.0,
+            242.0,
+            171.0,
+            88.0,
+            33.0,
+            14.0
+        ],
+        "annualSunshineHours": 1901.0
+    },
+    {
+        "country": "Russia",
+        "city": "Sochi",
+        "monthlySunshineHours": [
+            96.0,
+            107.0,
+            146.0,
+            162.0,
+            220.0,
+            258.0,
+            279.0,
+            282.0,
+            225.0,
+            195.0,
+            120.0,
+            87.0
+        ],
+        "annualSunshineHours": 2178.0
+    },
+    {
+        "country": "Serbia",
+        "city": "Belgrade",
+        "monthlySunshineHours": [
+            72.0,
+            102.0,
+            153.0,
+            188.0,
+            242.0,
+            261.0,
+            291.0,
+            274.0,
+            204.0,
+            163.0,
+            97.0,
+            65.0
+        ],
+        "annualSunshineHours": 2112.0
+    },
+    {
+        "country": "Serbia",
+        "city": "Ni\u0161",
+        "monthlySunshineHours": [
+            65.0,
+            93.0,
+            148.0,
+            171.0,
+            221.0,
+            251.0,
+            287.0,
+            274.0,
+            202.0,
+            151.0,
+            86.0,
+            49.0
+        ],
+        "annualSunshineHours": 1998.0
+    },
+    {
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "monthlySunshineHours": [
+            65.0,
+            82.0,
+            152.0,
+            204.0,
+            264.0,
+            270.0,
+            276.0,
+            270.0,
+            207.0,
+            143.0,
+            60.0,
+            47.0
+        ],
+        "annualSunshineHours": 2038.0
+    },
+    {
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "monthlySunshineHours": [
+            71.0,
+            114.0,
+            149.0,
+            178.0,
+            235.0,
+            246.0,
+            293.0,
+            264.0,
+            183.0,
+            120.0,
+            66.0,
+            56.0
+        ],
+        "annualSunshineHours": 1974.0
+    },
+    {
+        "country": "Spain",
+        "city": "A Coru\u00f1a",
+        "monthlySunshineHours": [
+            102.0,
+            121.0,
+            160.0,
+            175.0,
+            201.0,
+            225.0,
+            239.0,
+            244.0,
+            192.0,
+            149.0,
+            108.0,
+            94.0
+        ],
+        "annualSunshineHours": 2010.0
+    },
+    {
+        "country": "Spain",
+        "city": "Almer\u00eda",
+        "monthlySunshineHours": [
+            194.0,
+            191.0,
+            232.0,
+            261.0,
+            297.0,
+            325.0,
+            342.0,
+            315.0,
+            256.0,
+            218.0,
+            183.0,
+            178.0
+        ],
+        "annualSunshineHours": 2994.0
+    },
+    {
+        "country": "Spain",
+        "city": "Barcelona",
+        "monthlySunshineHours": [
+            158.0,
+            171.0,
+            206.0,
+            239.0,
+            258.0,
+            287.0,
+            293.0,
+            264.0,
+            229.0,
+            196.0,
+            153.0,
+            137.0
+        ],
+        "annualSunshineHours": 2591.0
+    },
+    {
+        "country": "Spain",
+        "city": "C\u00e1diz",
+        "monthlySunshineHours": [
+            184.0,
+            197.0,
+            228.0,
+            255.0,
+            307.0,
+            331.0,
+            354.0,
+            335.0,
+            252.0,
+            228.0,
+            187.0,
+            166.0
+        ],
+        "annualSunshineHours": 3024.0
+    },
+    {
+        "country": "Spain",
+        "city": "Madrid",
+        "monthlySunshineHours": [
+            148.0,
+            157.0,
+            214.0,
+            231.0,
+            272.0,
+            310.0,
+            359.0,
+            335.0,
+            261.0,
+            198.0,
+            157.0,
+            124.0
+        ],
+        "annualSunshineHours": 2769.0
+    },
+    {
+        "country": "Spain",
+        "city": "Seville",
+        "monthlySunshineHours": [
+            202.0,
+            212.2,
+            246.3,
+            270.2,
+            324.9,
+            357.3,
+            388.1,
+            364.3,
+            278.4,
+            244.4,
+            205.3,
+            185.9
+        ],
+        "annualSunshineHours": 3279.3
+    },
+    {
+        "country": "Spain",
+        "city": "Valencia",
+        "monthlySunshineHours": [
+            171.0,
+            171.0,
+            215.0,
+            234.0,
+            259.0,
+            276.0,
+            315.0,
+            288.0,
+            235.0,
+            202.0,
+            167.0,
+            155.0
+        ],
+        "annualSunshineHours": 2696.0
+    },
+    {
+        "country": "Sweden",
+        "city": "Gothenburg",
+        "monthlySunshineHours": [
+            44.0,
+            69.0,
+            167.0,
+            211.0,
+            239.0,
+            256.0,
+            234.0,
+            196.0,
+            168.0,
+            99.0,
+            47.0,
+            32.0
+        ],
+        "annualSunshineHours": 1762.0
+    },
+    {
+        "country": "Sweden",
+        "city": "Stockholm",
+        "monthlySunshineHours": [
+            40.0,
+            72.0,
+            139.0,
+            185.0,
+            254.0,
+            292.0,
+            260.0,
+            221.0,
+            154.0,
+            99.0,
+            54.0,
+            33.0
+        ],
+        "annualSunshineHours": 1803.0
+    },
+    {
+        "country": "Switzerland",
+        "city": "Zurich",
+        "monthlySunshineHours": [
+            48.0,
+            77.0,
+            125.0,
+            159.0,
+            186.0,
+            204.0,
+            230.0,
+            208.0,
+            151.0,
+            93.0,
+            50.0,
+            35.0
+        ],
+        "annualSunshineHours": 1566.0
+    },
+    {
+        "country": "Switzerland",
+        "city": "Geneva",
+        "monthlySunshineHours": [
+            61.0,
+            96.0,
+            161.0,
+            187.0,
+            212.0,
+            246.0,
+            269.0,
+            242.0,
+            184.0,
+            116.0,
+            65.0,
+            48.0
+        ],
+        "annualSunshineHours": 1887.0
+    },
+    {
+        "country": "Switzerland",
+        "city": "Sion",
+        "monthlySunshineHours": [
+            93.0,
+            131.0,
+            188.0,
+            210.0,
+            229.0,
+            254.0,
+            271.0,
+            250.0,
+            208.0,
+            160.0,
+            96.0,
+            68.0
+        ],
+        "annualSunshineHours": 2158.0
+    },
+    {
+        "country": "Switzerland",
+        "city": "Lugano",
+        "monthlySunshineHours": [
+            124.0,
+            142.0,
+            192.0,
+            182.0,
+            200.0,
+            229.0,
+            260.0,
+            245.0,
+            192.0,
+            141.0,
+            105.0,
+            107.0
+        ],
+        "annualSunshineHours": 2120.0
+    },
+    {
+        "country": "Turkey",
+        "city": "Istanbul",
+        "monthlySunshineHours": [
+            71.0,
+            88.0,
+            133.0,
+            180.0,
+            251.0,
+            300.0,
+            322.0,
+            295.0,
+            243.0,
+            164.0,
+            102.0,
+            68.0
+        ],
+        "annualSunshineHours": 2218.0
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "monthlySunshineHours": [
+            31.0,
+            57.0,
+            124.0,
+            180.0,
+            279.0,
+            270.0,
+            310.0,
+            248.0,
+            210.0,
+            155.0,
+            60.0,
+            31.0
+        ],
+        "annualSunshineHours": 1955.0
+    },
+    {
+        "country": "United Kingdom",
+        "city": "Edinburgh",
+        "monthlySunshineHours": [
+            54.0,
+            79.0,
+            115.0,
+            145.0,
+            188.0,
+            166.0,
+            172.0,
+            162.0,
+            129.0,
+            101.0,
+            71.0,
+            46.0
+        ],
+        "annualSunshineHours": 1427.0
+    },
+    {
+        "country": "United Kingdom",
+        "city": "Manchester",
+        "monthlySunshineHours": [
+            32.0,
+            50.0,
+            99.0,
+            153.0,
+            175.0,
+            153.0,
+            171.0,
+            154.0,
+            116.0,
+            79.0,
+            42.0,
+            43.0
+        ],
+        "annualSunshineHours": 1265.0
+    },
+    {
+        "country": "United Kingdom",
+        "city": "London",
+        "monthlySunshineHours": [
+            62.0,
+            78.0,
+            115.0,
+            169.0,
+            199.0,
+            204.0,
+            212.0,
+            205.0,
+            149.0,
+            117.0,
+            73.0,
+            52.0
+        ],
+        "annualSunshineHours": 1633.0
+    },
+    {
+        "country": "Canada",
+        "city": "Calgary",
+        "monthlySunshineHours": [
+            119.5,
+            144.6,
+            177.2,
+            220.2,
+            249.4,
+            269.9,
+            314.1,
+            284.0,
+            207.0,
+            175.4,
+            121.1,
+            114.0
+        ],
+        "annualSunshineHours": 2396.3
+    },
+    {
+        "country": "Canada",
+        "city": "Churchill",
+        "monthlySunshineHours": [
+            79.7,
+            117.7,
+            177.8,
+            198.2,
+            197.0,
+            243.0,
+            281.7,
+            225.9,
+            112.0,
+            58.1,
+            55.3,
+            53.1
+        ],
+        "annualSunshineHours": 1799.5
+    },
+    {
+        "country": "Canada",
+        "city": "Edmonton",
+        "monthlySunshineHours": [
+            100.8,
+            121.7,
+            176.3,
+            244.2,
+            279.9,
+            285.9,
+            307.5,
+            282.3,
+            192.7,
+            170.8,
+            98.4,
+            84.5
+        ],
+        "annualSunshineHours": 2344.8
+    },
+    {
+        "country": "Canada",
+        "city": "Iqaluit",
+        "monthlySunshineHours": [
+            32.4,
+            94.0,
+            172.2,
+            216.5,
+            180.5,
+            200.2,
+            236.8,
+            156.8,
+            87.9,
+            51.4,
+            35.6,
+            12.6
+        ],
+        "annualSunshineHours": 1476.8
+    },
+    {
+        "country": "Canada",
+        "city": "Montreal",
+        "monthlySunshineHours": [
+            101.0,
+            128.0,
+            164.0,
+            178.0,
+            229.0,
+            240.0,
+            272.0,
+            246.0,
+            182.0,
+            144.0,
+            84.0,
+            84.0
+        ],
+        "annualSunshineHours": 2051.0
+    },
+    {
+        "country": "Canada",
+        "city": "Prince Rupert",
+        "monthlySunshineHours": [
+            40.1,
+            65.2,
+            103.0,
+            145.8,
+            171.1,
+            154.5,
+            149.7,
+            149.7,
+            115.7,
+            72.4,
+            43.0,
+            32.1
+        ],
+        "annualSunshineHours": 1242.1
+    },
+    {
+        "country": "Canada",
+        "city": "Toronto",
+        "monthlySunshineHours": [
+            85.9,
+            111.3,
+            161.0,
+            180.0,
+            227.7,
+            259.6,
+            279.6,
+            245.6,
+            194.4,
+            154.3,
+            88.9,
+            78.1
+        ],
+        "annualSunshineHours": 2066.4
+    },
+    {
+        "country": "Canada",
+        "city": "Vancouver",
+        "monthlySunshineHours": [
+            60.1,
+            91.0,
+            134.8,
+            185.0,
+            222.5,
+            226.9,
+            289.8,
+            277.1,
+            212.8,
+            120.7,
+            60.4,
+            56.5
+        ],
+        "annualSunshineHours": 1937.6
+    },
+    {
+        "country": "Canada",
+        "city": "Whitehorse",
+        "monthlySunshineHours": [
+            43.8,
+            105.5,
+            163.2,
+            238.5,
+            251.1,
+            266.7,
+            247.6,
+            226.5,
+            132.7,
+            84.9,
+            39.8,
+            26.8
+        ],
+        "annualSunshineHours": 1827.1
+    },
+    {
+        "country": "Canada",
+        "city": "Winnipeg",
+        "monthlySunshineHours": [
+            114.7,
+            133.9,
+            181.9,
+            241.4,
+            285.3,
+            276.3,
+            308.3,
+            281.4,
+            189.0,
+            147.4,
+            93.9,
+            99.5
+        ],
+        "annualSunshineHours": 2352.9
+    },
+    {
+        "country": "Honduras",
+        "city": "La Ceiba",
+        "monthlySunshineHours": [
+            170.5,
+            192.1,
+            217.0,
+            234.0,
+            213.9,
+            192.0,
+            201.5,
+            217.0,
+            174.0,
+            151.9,
+            144.0,
+            151.9
+        ],
+        "annualSunshineHours": 2259.8
+    },
+    {
+        "country": "Mexico",
+        "city": "La Paz",
+        "monthlySunshineHours": [
+            200.0,
+            234.0,
+            271.0,
+            292.0,
+            332.0,
+            322.0,
+            287.0,
+            258.0,
+            257.0,
+            272.0,
+            233.0,
+            190.0
+        ],
+        "annualSunshineHours": 3148.0
+    },
+    {
+        "country": "Mexico",
+        "city": "Mexico City",
+        "monthlySunshineHours": [
+            240.0,
+            234.0,
+            268.0,
+            232.0,
+            225.0,
+            183.0,
+            176.0,
+            176.0,
+            157.0,
+            194.0,
+            232.0,
+            236.0
+        ],
+        "annualSunshineHours": 2555.0
+    },
+    {
+        "country": "Mexico",
+        "city": "Monterrey",
+        "monthlySunshineHours": [
+            142.0,
+            154.0,
+            195.0,
+            193.0,
+            192.0,
+            206.0,
+            249.0,
+            242.0,
+            200.0,
+            170.0,
+            163.0,
+            133.0
+        ],
+        "annualSunshineHours": 2239.0
+    },
+    {
+        "country": "Mexico",
+        "city": "Villahermosa",
+        "monthlySunshineHours": [
+            168.0,
+            185.0,
+            252.0,
+            215.0,
+            278.0,
+            217.0,
+            252.0,
+            245.0,
+            167.0,
+            150.0,
+            170.0,
+            144.0
+        ],
+        "annualSunshineHours": 2443.0
+    },
+    {
+        "country": "Nicaragua",
+        "city": "Managua",
+        "monthlySunshineHours": [
+            263.5,
+            254.2,
+            291.4,
+            276.0,
+            229.4,
+            186.0,
+            151.9,
+            195.3,
+            210.0,
+            223.2,
+            231.0,
+            248.0
+        ],
+        "annualSunshineHours": 2759.9
+    },
+    {
+        "country": "Panama",
+        "city": "Panama City",
+        "monthlySunshineHours": [
+            228.9,
+            245.2,
+            183.9,
+            173.1,
+            108.5,
+            116.3,
+            106.1,
+            118.1,
+            99.2,
+            103.9,
+            139.8,
+            120.5
+        ],
+        "annualSunshineHours": 1743.5
+    },
+    {
+        "country": "Puerto Rico",
+        "city": "San Juan",
+        "monthlySunshineHours": [
+            237.4,
+            231.2,
+            282.0,
+            268.3,
+            255.2,
+            259.4,
+            280.8,
+            267.8,
+            234.7,
+            227.2,
+            202.4,
+            217.4
+        ],
+        "annualSunshineHours": 2963.8
+    },
+    {
+        "country": "El Salvador",
+        "city": "San Salvador",
+        "monthlySunshineHours": [
+            301.0,
+            277.0,
+            294.0,
+            243.0,
+            220.0,
+            174.0,
+            239.0,
+            257.0,
+            180.0,
+            211.0,
+            267.0,
+            294.0
+        ],
+        "annualSunshineHours": 2957.0
+    },
+    {
+        "country": "Saint Pierreand Miquelon",
+        "city": "Saint-Pierre",
+        "monthlySunshineHours": [
+            49.6,
+            70.2,
+            115.5,
+            131.9,
+            165.8,
+            172.6,
+            164.8,
+            173.5,
+            156.1,
+            119.0,
+            63.0,
+            45.4
+        ],
+        "annualSunshineHours": 1427.3
+    },
+    {
+        "country": "United States",
+        "city": "Albuquerque",
+        "monthlySunshineHours": [
+            234.2,
+            225.3,
+            270.2,
+            304.6,
+            347.4,
+            359.3,
+            335.0,
+            314.2,
+            286.7,
+            281.4,
+            233.8,
+            223.3
+        ],
+        "annualSunshineHours": 3415.4
+    },
+    {
+        "country": "United States",
+        "city": "Anchorage",
+        "monthlySunshineHours": [
+            82.9,
+            120.5,
+            195.8,
+            235.3,
+            288.7,
+            274.7,
+            250.1,
+            203.9,
+            159.8,
+            117.1,
+            80.6,
+            51.8
+        ],
+        "annualSunshineHours": 2061.2
+    },
+    {
+        "country": "United States",
+        "city": "Atlanta",
+        "monthlySunshineHours": [
+            164.0,
+            171.7,
+            220.5,
+            261.2,
+            288.6,
+            284.8,
+            273.8,
+            258.6,
+            227.5,
+            238.5,
+            185.1,
+            164.0
+        ],
+        "annualSunshineHours": 2738.3
+    },
+    {
+        "country": "United States",
+        "city": "Austin",
+        "monthlySunshineHours": [
+            163.8,
+            169.3,
+            205.9,
+            205.8,
+            227.1,
+            285.5,
+            317.2,
+            297.9,
+            233.8,
+            215.6,
+            168.3,
+            153.5
+        ],
+        "annualSunshineHours": 2643.7
+    },
+    {
+        "country": "United States",
+        "city": "Baltimore",
+        "monthlySunshineHours": [
+            155.4,
+            164.0,
+            215.0,
+            230.7,
+            254.5,
+            277.3,
+            290.1,
+            264.4,
+            221.8,
+            205.5,
+            158.5,
+            144.5
+        ],
+        "annualSunshineHours": 2581.7
+    },
+    {
+        "country": "United States",
+        "city": "Boise",
+        "monthlySunshineHours": [
+            109.3,
+            151.9,
+            238.6,
+            281.4,
+            335.5,
+            351.6,
+            399.8,
+            358.8,
+            303.6,
+            238.1,
+            119.6,
+            105.2
+        ],
+        "annualSunshineHours": 2993.4
+    },
+    {
+        "country": "United States",
+        "city": "Boston",
+        "monthlySunshineHours": [
+            163.4,
+            168.4,
+            213.7,
+            227.2,
+            267.3,
+            286.5,
+            300.9,
+            277.3,
+            237.1,
+            206.3,
+            143.2,
+            142.3
+        ],
+        "annualSunshineHours": 2633.6
+    },
+    {
+        "country": "United States",
+        "city": "Charlotte",
+        "monthlySunshineHours": [
+            173.3,
+            180.3,
+            234.8,
+            269.6,
+            292.1,
+            289.2,
+            290.0,
+            272.9,
+            241.4,
+            230.5,
+            178.4,
+            168.5
+        ],
+        "annualSunshineHours": 2821.0
+    },
+    {
+        "country": "United States",
+        "city": "Chicago",
+        "monthlySunshineHours": [
+            135.8,
+            136.2,
+            187.0,
+            215.3,
+            281.9,
+            311.4,
+            318.4,
+            283.0,
+            226.6,
+            193.2,
+            113.3,
+            106.3
+        ],
+        "annualSunshineHours": 2508.4
+    },
+    {
+        "country": "United States",
+        "city": "Cleveland",
+        "monthlySunshineHours": [
+            101.0,
+            122.3,
+            167.0,
+            216.0,
+            263.6,
+            294.6,
+            307.2,
+            262.2,
+            219.0,
+            169.5,
+            89.8,
+            67.8
+        ],
+        "annualSunshineHours": 2280.0
+    },
+    {
+        "country": "United States",
+        "city": "Columbus",
+        "monthlySunshineHours": [
+            110.6,
+            126.3,
+            162.0,
+            201.8,
+            243.4,
+            258.1,
+            260.9,
+            235.9,
+            212.0,
+            183.1,
+            104.2,
+            84.3
+        ],
+        "annualSunshineHours": 2182.6
+    },
+    {
+        "country": "United States",
+        "city": "Dallas",
+        "monthlySunshineHours": [
+            183.5,
+            178.3,
+            227.7,
+            236.0,
+            258.4,
+            297.8,
+            332.4,
+            304.5,
+            246.2,
+            228.1,
+            183.8,
+            173.0
+        ],
+        "annualSunshineHours": 2849.7
+    },
+    {
+        "country": "United States",
+        "city": "Denver",
+        "monthlySunshineHours": [
+            215.3,
+            211.1,
+            255.6,
+            276.2,
+            290.0,
+            315.3,
+            325.0,
+            306.4,
+            272.3,
+            249.2,
+            194.3,
+            195.9
+        ],
+        "annualSunshineHours": 3106.6
+    },
+    {
+        "country": "United States",
+        "city": "Detroit",
+        "monthlySunshineHours": [
+            119.9,
+            138.3,
+            184.9,
+            217.0,
+            275.9,
+            301.8,
+            317.0,
+            283.5,
+            227.6,
+            176.0,
+            106.3,
+            87.7
+        ],
+        "annualSunshineHours": 2435.9
+    },
+    {
+        "country": "United States",
+        "city": "El Paso",
+        "monthlySunshineHours": [
+            254.5,
+            263.0,
+            326.0,
+            348.0,
+            384.7,
+            384.1,
+            360.2,
+            335.4,
+            304.1,
+            298.6,
+            257.6,
+            246.3
+        ],
+        "annualSunshineHours": 3762.5
+    },
+    {
+        "country": "United States",
+        "city": "Fresno",
+        "monthlySunshineHours": [
+            141.5,
+            196.9,
+            286.2,
+            335.5,
+            398.9,
+            412.2,
+            428.2,
+            399.6,
+            345.9,
+            302.3,
+            189.9,
+            127.1
+        ],
+        "annualSunshineHours": 3564.2
+    },
+    {
+        "country": "United States",
+        "city": "Honolulu",
+        "monthlySunshineHours": [
+            213.5,
+            212.7,
+            259.2,
+            251.8,
+            280.6,
+            286.1,
+            306.2,
+            303.1,
+            278.8,
+            244.0,
+            200.4,
+            199.5
+        ],
+        "annualSunshineHours": 3035.9
+    },
+    {
+        "country": "United States",
+        "city": "Houston",
+        "monthlySunshineHours": [
+            143.4,
+            155.0,
+            192.5,
+            209.8,
+            249.2,
+            281.3,
+            293.9,
+            270.5,
+            236.5,
+            228.8,
+            168.3,
+            148.7
+        ],
+        "annualSunshineHours": 2577.9
+    },
+    {
+        "country": "United States",
+        "city": "Indianapolis",
+        "monthlySunshineHours": [
+            132.1,
+            145.7,
+            178.3,
+            214.8,
+            264.7,
+            287.2,
+            295.2,
+            273.7,
+            232.6,
+            196.6,
+            117.1,
+            102.4
+        ],
+        "annualSunshineHours": 2440.4
+    },
+    {
+        "country": "United States",
+        "city": "Jacksonville",
+        "monthlySunshineHours": [
+            189.4,
+            193.8,
+            257.9,
+            286.4,
+            303.9,
+            283.6,
+            282.0,
+            262.4,
+            228.2,
+            214.6,
+            193.9,
+            183.6
+        ],
+        "annualSunshineHours": 2879.7
+    },
+    {
+        "country": "United States",
+        "city": "Kansas City",
+        "monthlySunshineHours": [
+            183.7,
+            174.3,
+            223.9,
+            257.8,
+            285.0,
+            305.5,
+            329.3,
+            293.9,
+            240.5,
+            213.6,
+            155.3,
+            147.1
+        ],
+        "annualSunshineHours": 2809.9
+    },
+    {
+        "country": "United States",
+        "city": "Las Vegas",
+        "monthlySunshineHours": [
+            245.2,
+            246.7,
+            314.6,
+            346.1,
+            388.1,
+            401.7,
+            390.9,
+            368.5,
+            337.1,
+            304.4,
+            246.0,
+            236.0
+        ],
+        "annualSunshineHours": 3825.3
+    },
+    {
+        "country": "United States",
+        "city": "Los Angeles",
+        "monthlySunshineHours": [
+            225.3,
+            222.5,
+            267.0,
+            303.5,
+            276.2,
+            275.8,
+            364.1,
+            349.5,
+            278.5,
+            255.1,
+            217.3,
+            219.4
+        ],
+        "annualSunshineHours": 3254.2
+    },
+    {
+        "country": "United States",
+        "city": "Louisville",
+        "monthlySunshineHours": [
+            140.5,
+            148.9,
+            188.6,
+            221.1,
+            263.4,
+            288.9,
+            293.6,
+            272.6,
+            234.3,
+            208.5,
+            135.7,
+            118.3
+        ],
+        "annualSunshineHours": 2514.4
+    },
+    {
+        "country": "United States",
+        "city": "Memphis",
+        "monthlySunshineHours": [
+            166.6,
+            173.8,
+            215.3,
+            254.6,
+            301.5,
+            320.6,
+            326.9,
+            307.0,
+            251.2,
+            245.9,
+            173.0,
+            151.9
+        ],
+        "annualSunshineHours": 2888.3
+    },
+    {
+        "country": "United States",
+        "city": "Miami",
+        "monthlySunshineHours": [
+            219.8,
+            216.9,
+            277.2,
+            293.8,
+            301.3,
+            288.7,
+            308.7,
+            288.3,
+            262.2,
+            260.2,
+            220.8,
+            216.1
+        ],
+        "annualSunshineHours": 3154.0
+    },
+    {
+        "country": "United States",
+        "city": "Milwaukee",
+        "monthlySunshineHours": [
+            140.2,
+            151.5,
+            185.4,
+            213.5,
+            275.5,
+            304.5,
+            321.1,
+            281.2,
+            215.1,
+            178.0,
+            112.8,
+            104.8
+        ],
+        "annualSunshineHours": 2483.6
+    },
+    {
+        "country": "United States",
+        "city": "Minneapolis",
+        "monthlySunshineHours": [
+            156.7,
+            178.3,
+            217.5,
+            242.1,
+            295.2,
+            321.9,
+            350.5,
+            307.2,
+            233.2,
+            181.0,
+            112.8,
+            114.3
+        ],
+        "annualSunshineHours": 2710.7
+    },
+    {
+        "country": "United States",
+        "city": "Nashville",
+        "monthlySunshineHours": [
+            139.6,
+            145.2,
+            191.3,
+            231.5,
+            261.8,
+            277.7,
+            279.0,
+            262.1,
+            226.4,
+            216.8,
+            148.1,
+            130.6
+        ],
+        "annualSunshineHours": 2510.1
+    },
+    {
+        "country": "United States",
+        "city": "New Orleans",
+        "monthlySunshineHours": [
+            153.0,
+            161.5,
+            219.4,
+            251.9,
+            278.9,
+            274.3,
+            257.1,
+            251.9,
+            228.7,
+            242.6,
+            171.8,
+            157.8
+        ],
+        "annualSunshineHours": 2648.9
+    },
+    {
+        "country": "United States",
+        "city": "New York City",
+        "monthlySunshineHours": [
+            162.7,
+            163.1,
+            212.5,
+            225.6,
+            256.6,
+            257.3,
+            268.2,
+            268.2,
+            219.3,
+            211.2,
+            151.0,
+            139.0
+        ],
+        "annualSunshineHours": 2534.7
+    },
+    {
+        "country": "United States",
+        "city": "New York",
+        "monthlySunshineHours": [
+            162.7,
+            163.1,
+            212.5,
+            225.6,
+            256.6,
+            257.3,
+            268.2,
+            268.2,
+            219.3,
+            211.2,
+            151.0,
+            139.0
+        ],
+        "annualSunshineHours": 2534.7
+    },
+    {
+        "country": "United States",
+        "city": "Nome",
+        "monthlySunshineHours": [
+            62.2,
+            140.1,
+            205.0,
+            245.3,
+            290.3,
+            275.3,
+            250.3,
+            178.1,
+            153.6,
+            116.7,
+            66.4,
+            53.0
+        ],
+        "annualSunshineHours": 2036.3
+    },
+    {
+        "country": "United States",
+        "city": "OklahomaCity",
+        "monthlySunshineHours": [
+            200.8,
+            189.7,
+            244.2,
+            271.3,
+            295.2,
+            326.1,
+            356.6,
+            329.3,
+            263.7,
+            245.1,
+            186.5,
+            180.9
+        ],
+        "annualSunshineHours": 3089.4
+    },
+    {
+        "country": "United States",
+        "city": "Omaha",
+        "monthlySunshineHours": [
+            167.8,
+            157.6,
+            206.4,
+            230.1,
+            277.1,
+            314.0,
+            332.5,
+            296.3,
+            245.5,
+            217.5,
+            148.0,
+            134.1
+        ],
+        "annualSunshineHours": 2726.9
+    },
+    {
+        "country": "United States",
+        "city": "Philadelphia",
+        "monthlySunshineHours": [
+            155.7,
+            154.7,
+            202.8,
+            217.0,
+            245.1,
+            271.2,
+            275.6,
+            260.1,
+            219.3,
+            204.5,
+            154.7,
+            137.7
+        ],
+        "annualSunshineHours": 2498.4
+    },
+    {
+        "country": "United States",
+        "city": "Phoenix",
+        "monthlySunshineHours": [
+            256.0,
+            257.2,
+            318.4,
+            353.6,
+            401.0,
+            407.8,
+            378.5,
+            360.8,
+            328.6,
+            308.9,
+            256.0,
+            244.8
+        ],
+        "annualSunshineHours": 3871.6
+    },
+    {
+        "country": "United States",
+        "city": "Pittsburgh",
+        "monthlySunshineHours": [
+            93.9,
+            108.5,
+            155.4,
+            182.8,
+            217.4,
+            242.2,
+            254.9,
+            228.4,
+            196.7,
+            167.3,
+            99.4,
+            74.4
+        ],
+        "annualSunshineHours": 2021.3
+    },
+    {
+        "country": "United States",
+        "city": "Portland (OR)",
+        "monthlySunshineHours": [
+            85.6,
+            116.4,
+            191.1,
+            221.1,
+            276.1,
+            290.2,
+            331.9,
+            298.1,
+            235.7,
+            151.7,
+            79.3,
+            63.7
+        ],
+        "annualSunshineHours": 2340.9
+    },
+    {
+        "country": "United States",
+        "city": "Raleigh",
+        "monthlySunshineHours": [
+            163.8,
+            173.1,
+            228.9,
+            250.7,
+            258.4,
+            267.7,
+            259.5,
+            239.6,
+            217.6,
+            215.4,
+            174.0,
+            157.6
+        ],
+        "annualSunshineHours": 2606.3
+    },
+    {
+        "country": "United States",
+        "city": "Richmond (VA)",
+        "monthlySunshineHours": [
+            172.5,
+            179.7,
+            233.3,
+            261.6,
+            288.0,
+            306.4,
+            301.4,
+            278.9,
+            237.9,
+            222.8,
+            183.5,
+            163.0
+        ],
+        "annualSunshineHours": 2829.0
+    },
+    {
+        "country": "United States",
+        "city": "Sacramento",
+        "monthlySunshineHours": [
+            145.5,
+            201.3,
+            278.0,
+            329.6,
+            406.3,
+            419.5,
+            440.2,
+            406.9,
+            347.8,
+            296.7,
+            194.9,
+            141.1
+        ],
+        "annualSunshineHours": 3607.8
+    },
+    {
+        "country": "United States",
+        "city": "Salt Lake City",
+        "monthlySunshineHours": [
+            127.4,
+            163.1,
+            241.9,
+            269.1,
+            321.7,
+            360.5,
+            380.5,
+            352.5,
+            301.1,
+            248.1,
+            150.4,
+            113.1
+        ],
+        "annualSunshineHours": 3029.4
+    },
+    {
+        "country": "United States",
+        "city": "San Antonio",
+        "monthlySunshineHours": [
+            159.4,
+            169.7,
+            215.5,
+            209.7,
+            221.8,
+            275.9,
+            308.8,
+            293.9,
+            234.9,
+            218.0,
+            171.9,
+            149.7
+        ],
+        "annualSunshineHours": 2629.2
+    },
+    {
+        "country": "United States",
+        "city": "San Diego",
+        "monthlySunshineHours": [
+            239.3,
+            227.4,
+            261.0,
+            276.2,
+            250.5,
+            242.4,
+            304.7,
+            295.0,
+            253.3,
+            243.4,
+            230.1,
+            231.3
+        ],
+        "annualSunshineHours": 3054.6
+    },
+    {
+        "country": "United States",
+        "city": "San Francisco",
+        "monthlySunshineHours": [
+            185.9,
+            207.7,
+            269.1,
+            309.3,
+            325.1,
+            311.4,
+            313.3,
+            287.4,
+            271.4,
+            247.1,
+            173.4,
+            160.6
+        ],
+        "annualSunshineHours": 3061.7
+    },
+    {
+        "country": "United States",
+        "city": "Seattle",
+        "monthlySunshineHours": [
+            69.8,
+            108.8,
+            178.4,
+            207.3,
+            253.7,
+            268.4,
+            312.0,
+            281.4,
+            221.7,
+            142.6,
+            72.7,
+            52.9
+        ],
+        "annualSunshineHours": 2169.7
+    },
+    {
+        "country": "United States",
+        "city": "St. Louis",
+        "monthlySunshineHours": [
+            161.2,
+            158.3,
+            198.3,
+            223.5,
+            266.5,
+            291.9,
+            308.9,
+            269.8,
+            236.1,
+            208.4,
+            140.9,
+            129.9
+        ],
+        "annualSunshineHours": 2593.7
+    },
+    {
+        "country": "United States",
+        "city": "Tampa",
+        "monthlySunshineHours": [
+            199.9,
+            202.7,
+            267.5,
+            299.1,
+            314.5,
+            277.8,
+            265.3,
+            249.5,
+            223.0,
+            233.9,
+            201.7,
+            191.6
+        ],
+        "annualSunshineHours": 2926.5
+    },
+    {
+        "country": "United States",
+        "city": "Tucson",
+        "monthlySunshineHours": [
+            259.9,
+            258.2,
+            320.7,
+            357.2,
+            400.8,
+            396.9,
+            342.7,
+            335.6,
+            316.4,
+            307.4,
+            264.4,
+            245.8
+        ],
+        "annualSunshineHours": 3806.0
+    },
+    {
+        "country": "United States",
+        "city": "Tulsa",
+        "monthlySunshineHours": [
+            175.8,
+            171.7,
+            219.6,
+            244.4,
+            266.7,
+            294.8,
+            334.7,
+            305.3,
+            232.5,
+            218.6,
+            161.1,
+            160.8
+        ],
+        "annualSunshineHours": 2786.0
+    },
+    {
+        "country": "United States",
+        "city": "Virginia Beach",
+        "monthlySunshineHours": [
+            171.5,
+            175.2,
+            229.3,
+            252.8,
+            271.7,
+            280.1,
+            278.3,
+            260.4,
+            231.4,
+            208.3,
+            175.7,
+            160.4
+        ],
+        "annualSunshineHours": 2695.1
+    },
+    {
+        "country": "United States",
+        "city": "Washington, D.C.",
+        "monthlySunshineHours": [
+            144.6,
+            151.8,
+            204.0,
+            228.2,
+            260.5,
+            283.2,
+            280.5,
+            263.1,
+            225.0,
+            203.6,
+            150.2,
+            133.0
+        ],
+        "annualSunshineHours": 2527.7
+    },
+    {
+        "country": "United States",
+        "city": "Wichita",
+        "monthlySunshineHours": [
+            190.9,
+            186.4,
+            230.4,
+            257.8,
+            289.8,
+            305.0,
+            342.1,
+            309.2,
+            245.6,
+            226.3,
+            170.2,
+            168.7
+        ],
+        "annualSunshineHours": 2922.4
+    },
+    {
+        "country": "United States",
+        "city": "Yuma",
+        "monthlySunshineHours": [
+            268.4,
+            270.8,
+            335.5,
+            365.5,
+            407.4,
+            415.4,
+            392.6,
+            375.6,
+            341.7,
+            319.6,
+            270.1,
+            252.7
+        ],
+        "annualSunshineHours": 4015.3
+    },
+    {
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "monthlySunshineHours": [
+            279.0,
+            240.8,
+            229.0,
+            220.0,
+            173.6,
+            132.0,
+            142.6,
+            173.6,
+            189.0,
+            227.0,
+            252.0,
+            266.6
+        ],
+        "annualSunshineHours": 2525.2
+    },
+    {
+        "country": "Argentina",
+        "city": "C\u00f3rdoba",
+        "monthlySunshineHours": [
+            257.3,
+            229.6,
+            204.6,
+            189.0,
+            170.5,
+            150.0,
+            170.5,
+            204.6,
+            213.0,
+            238.7,
+            255.0,
+            251.1
+        ],
+        "annualSunshineHours": 2533.9
+    },
+    {
+        "country": "Argentina",
+        "city": "La Plata",
+        "monthlySunshineHours": [
+            251.1,
+            229.6,
+            210.8,
+            186.0,
+            155.0,
+            120.0,
+            127.1,
+            161.2,
+            171.0,
+            207.7,
+            225.0,
+            238.7
+        ],
+        "annualSunshineHours": 2283.2
+    },
+    {
+        "country": "Argentina",
+        "city": "Mendoza",
+        "monthlySunshineHours": [
+            297.6,
+            257.6,
+            235.6,
+            219.0,
+            195.3,
+            168.0,
+            182.9,
+            229.4,
+            225.0,
+            282.1,
+            294.0,
+            285.2
+        ],
+        "annualSunshineHours": 2871.7
+    },
+    {
+        "country": "Argentina",
+        "city": "Salta",
+        "monthlySunshineHours": [
+            164.3,
+            134.4,
+            105.4,
+            117.0,
+            136.4,
+            120.0,
+            173.6,
+            195.3,
+            162.0,
+            182.9,
+            171.0,
+            164.3
+        ],
+        "annualSunshineHours": 1826.6
+    },
+    {
+        "country": "Argentina",
+        "city": "Ushuaia",
+        "monthlySunshineHours": [
+            180.2,
+            150.4,
+            124.9,
+            92.7,
+            78.0,
+            50.3,
+            35.0,
+            58.3,
+            87.6,
+            113.0,
+            140.0,
+            170.8
+        ],
+        "annualSunshineHours": 1281.2
+    },
+    {
+        "country": "Bolivia",
+        "city": "La Paz",
+        "monthlySunshineHours": [
+            182.9,
+            152.6,
+            148.8,
+            165.0,
+            222.7,
+            240.0,
+            235.6,
+            217.0,
+            189.0,
+            179.8,
+            171.0,
+            186.0
+        ],
+        "annualSunshineHours": 2288.9
+    },
+    {
+        "country": "Brazil",
+        "city": "Bel\u00e9m",
+        "monthlySunshineHours": [
+            130.3,
+            103.1,
+            111.1,
+            132.8,
+            186.7,
+            228.7,
+            250.8,
+            266.4,
+            242.4,
+            231.8,
+            191.7,
+            159.1
+        ],
+        "annualSunshineHours": 2234.9
+    },
+    {
+        "country": "Brazil",
+        "city": "Belo Horizonte",
+        "monthlySunshineHours": [
+            176.0,
+            190.8,
+            194.9,
+            210.7,
+            221.2,
+            229.9,
+            240.5,
+            241.5,
+            202.5,
+            196.5,
+            166.9,
+            153.3
+        ],
+        "annualSunshineHours": 2424.7
+    },
+    {
+        "country": "Brazil",
+        "city": "Bras\u00edlia",
+        "monthlySunshineHours": [
+            150.9,
+            158.9,
+            166.5,
+            204.6,
+            239.5,
+            254.3,
+            268.9,
+            264.4,
+            210.5,
+            183.1,
+            139.9,
+            126.8
+        ],
+        "annualSunshineHours": 2368.3
+    },
+    {
+        "country": "Brazil",
+        "city": "Curitiba",
+        "monthlySunshineHours": [
+            160.5,
+            151.3,
+            163.1,
+            155.5,
+            148.8,
+            141.3,
+            162.1,
+            173.0,
+            124.3,
+            136.7,
+            163.5,
+            164.7
+        ],
+        "annualSunshineHours": 1844.8
+    },
+    {
+        "country": "Brazil",
+        "city": "Fortaleza",
+        "monthlySunshineHours": [
+            222.0,
+            181.2,
+            157.0,
+            147.1,
+            201.3,
+            215.5,
+            259.4,
+            288.3,
+            284.4,
+            294.1,
+            288.5,
+            265.4
+        ],
+        "annualSunshineHours": 2804.2
+    },
+    {
+        "country": "Brazil",
+        "city": "Manaus",
+        "monthlySunshineHours": [
+            112.7,
+            93.4,
+            95.8,
+            107.3,
+            144.2,
+            186.8,
+            218.5,
+            215.7,
+            183.8,
+            158.1,
+            140.0,
+            118.5
+        ],
+        "annualSunshineHours": 1774.8
+    },
+    {
+        "country": "Brazil",
+        "city": "Porto Alegre",
+        "monthlySunshineHours": [
+            227.2,
+            195.2,
+            202.4,
+            166.0,
+            146.9,
+            115.6,
+            131.4,
+            145.3,
+            145.8,
+            178.0,
+            215.2,
+            232.4
+        ],
+        "annualSunshineHours": 2101.4
+    },
+    {
+        "country": "Brazil",
+        "city": "Rio de Janeiro",
+        "monthlySunshineHours": [
+            194.3,
+            199.8,
+            189.3,
+            194.0,
+            190.0,
+            202.1,
+            196.0,
+            199.7,
+            135.7,
+            156.0,
+            163.7,
+            166.7
+        ],
+        "annualSunshineHours": 2187.3
+    },
+    {
+        "country": "Brazil",
+        "city": "Recife",
+        "monthlySunshineHours": [
+            233.0,
+            210.5,
+            227.6,
+            198.3,
+            186.0,
+            161.1,
+            175.2,
+            195.2,
+            215.6,
+            242.6,
+            245.4,
+            246.0
+        ],
+        "annualSunshineHours": 2536.5
+    },
+    {
+        "country": "Brazil",
+        "city": "Salvador",
+        "monthlySunshineHours": [
+            246.9,
+            215.0,
+            227.2,
+            194.1,
+            165.8,
+            147.8,
+            169.1,
+            189.1,
+            211.4,
+            235.5,
+            210.9,
+            230.2
+        ],
+        "annualSunshineHours": 2443.0
+    },
+    {
+        "country": "Brazil",
+        "city": "S\u00e3o Paulo",
+        "monthlySunshineHours": [
+            139.1,
+            153.5,
+            161.6,
+            169.3,
+            167.6,
+            160.0,
+            169.0,
+            173.1,
+            144.5,
+            157.9,
+            152.8,
+            145.1
+        ],
+        "annualSunshineHours": 1893.5
+    },
+    {
+        "country": "Chile",
+        "city": "Antofagasta",
+        "monthlySunshineHours": [
+            319.3,
+            291.0,
+            294.5,
+            252.0,
+            229.4,
+            207.0,
+            204.6,
+            213.9,
+            219.0,
+            260.4,
+            276.0,
+            310.0
+        ],
+        "annualSunshineHours": 3077.1
+    },
+    {
+        "country": "Chile",
+        "city": "Calama",
+        "monthlySunshineHours": [
+            353.4,
+            305.1,
+            319.3,
+            312.0,
+            306.9,
+            297.0,
+            310.0,
+            316.2,
+            321.0,
+            356.5,
+            363.0,
+            365.8
+        ],
+        "annualSunshineHours": 3926.2
+    },
+    {
+        "country": "Chile",
+        "city": "Concepci\u00f3n",
+        "monthlySunshineHours": [
+            341.0,
+            278.0,
+            255.0,
+            191.0,
+            133.0,
+            114.0,
+            129.0,
+            162.0,
+            197.0,
+            254.0,
+            296.0,
+            331.0
+        ],
+        "annualSunshineHours": 2681.0
+    },
+    {
+        "country": "Chile",
+        "city": "Santiago",
+        "monthlySunshineHours": [
+            362.7,
+            302.3,
+            272.8,
+            201.0,
+            155.0,
+            120.0,
+            145.7,
+            161.2,
+            186.0,
+            248.0,
+            306.0,
+            347.2
+        ],
+        "annualSunshineHours": 2807.9
+    },
+    {
+        "country": "Chile",
+        "city": "Valdivia",
+        "monthlySunshineHours": [
+            257.3,
+            228.8,
+            204.6,
+            123.0,
+            68.2,
+            45.0,
+            65.1,
+            89.9,
+            111.0,
+            127.1,
+            189.0,
+            207.7
+        ],
+        "annualSunshineHours": 1716.7
+    },
+    {
+        "country": "Colombia",
+        "city": "Barranquilla",
+        "monthlySunshineHours": [
+            283.0,
+            245.0,
+            241.0,
+            211.0,
+            187.0,
+            194.0,
+            217.0,
+            208.0,
+            166.0,
+            167.0,
+            191.0,
+            252.0
+        ],
+        "annualSunshineHours": 2561.0
+    },
+    {
+        "country": "Colombia",
+        "city": "Bogot\u00e1",
+        "monthlySunshineHours": [
+            156.0,
+            128.0,
+            107.0,
+            88.0,
+            83.0,
+            94.0,
+            114.0,
+            117.0,
+            109.0,
+            96.0,
+            103.0,
+            138.0
+        ],
+        "annualSunshineHours": 1328.0
+    },
+    {
+        "country": "Colombia",
+        "city": "Cali",
+        "monthlySunshineHours": [
+            183.0,
+            155.8,
+            166.5,
+            139.0,
+            147.1,
+            153.1,
+            189.9,
+            175.1,
+            157.4,
+            151.1,
+            153.8,
+            170.1
+        ],
+        "annualSunshineHours": 1941.9
+    },
+    {
+        "country": "Colombia",
+        "city": "Medell\u00edn",
+        "monthlySunshineHours": [
+            175.5,
+            149.0,
+            154.2,
+            127.9,
+            138.9,
+            173.0,
+            203.2,
+            191.6,
+            153.4,
+            132.9,
+            136.4,
+            156.2
+        ],
+        "annualSunshineHours": 1892.2
+    },
+    {
+        "country": "Ecuador",
+        "city": "Guayaquil",
+        "monthlySunshineHours": [
+            102.3,
+            101.7,
+            139.5,
+            150.0,
+            167.4,
+            123.0,
+            127.1,
+            133.3,
+            144.0,
+            136.4,
+            120.0,
+            136.4
+        ],
+        "annualSunshineHours": 1581.1
+    },
+    {
+        "country": "Ecuador",
+        "city": "Quito",
+        "monthlySunshineHours": [
+            197.0,
+            140.0,
+            122.0,
+            136.0,
+            164.0,
+            189.0,
+            249.0,
+            256.0,
+            196.0,
+            177.0,
+            197.0,
+            215.0
+        ],
+        "annualSunshineHours": 2238.0
+    },
+    {
+        "country": "Falkland Islands",
+        "city": "Stanley",
+        "monthlySunshineHours": [
+            198.0,
+            161.0,
+            169.0,
+            115.0,
+            77.0,
+            57.0,
+            69.0,
+            90.0,
+            128.0,
+            189.0,
+            200.0,
+            198.0
+        ],
+        "annualSunshineHours": 1651.0
+    },
+    {
+        "country": "French Guiana",
+        "city": "Cayenne",
+        "monthlySunshineHours": [
+            94.3,
+            89.9,
+            119.0,
+            118.1,
+            118.8,
+            148.6,
+            196.5,
+            229.8,
+            255.2,
+            251.1,
+            217.3,
+            137.5
+        ],
+        "annualSunshineHours": 1976.0
+    },
+    {
+        "country": "Guyana",
+        "city": "Georgetown",
+        "monthlySunshineHours": [
+            201.0,
+            208.6,
+            219.7,
+            197.9,
+            178.8,
+            156.7,
+            201.6,
+            233.7,
+            229.8,
+            235.3,
+            210.9,
+            186.6
+        ],
+        "annualSunshineHours": 2460.6
+    },
+    {
+        "country": "Paraguay",
+        "city": "Asunci\u00f3n",
+        "monthlySunshineHours": [
+            276.0,
+            246.0,
+            254.0,
+            228.0,
+            205.0,
+            165.0,
+            195.0,
+            223.0,
+            204.0,
+            242.0,
+            270.0,
+            295.0
+        ],
+        "annualSunshineHours": 2803.0
+    },
+    {
+        "country": "Peru",
+        "city": "Arequipa",
+        "monthlySunshineHours": [
+            223.2,
+            189.3,
+            244.9,
+            294.0,
+            288.3,
+            291.0,
+            291.4,
+            310.0,
+            297.0,
+            303.8,
+            309.0,
+            291.4
+        ],
+        "annualSunshineHours": 3333.3
+    },
+    {
+        "country": "Peru",
+        "city": "Iquitos",
+        "monthlySunshineHours": [
+            167.4,
+            149.7,
+            151.9,
+            159.0,
+            173.6,
+            189.0,
+            213.9,
+            226.3,
+            213.0,
+            198.4,
+            180.0,
+            158.1
+        ],
+        "annualSunshineHours": 2180.3
+    },
+    {
+        "country": "Peru",
+        "city": "Lima",
+        "monthlySunshineHours": [
+            179.1,
+            169.0,
+            139.2,
+            184.0,
+            116.4,
+            50.6,
+            28.6,
+            32.3,
+            37.3,
+            65.3,
+            89.0,
+            139.2
+        ],
+        "annualSunshineHours": 1230.0
+    },
+    {
+        "country": "Uruguay",
+        "city": "Montevideo",
+        "monthlySunshineHours": [
+            294.9,
+            230.6,
+            222.8,
+            179.6,
+            164.2,
+            129.7,
+            139.7,
+            164.4,
+            182.3,
+            239.0,
+            248.9,
+            285.3
+        ],
+        "annualSunshineHours": 2481.4
+    },
+    {
+        "country": "Venezuela",
+        "city": "Caracas",
+        "monthlySunshineHours": [
+            229.4,
+            217.5,
+            235.6,
+            183.0,
+            182.9,
+            183.0,
+            210.8,
+            217.0,
+            213.0,
+            210.8,
+            210.0,
+            213.9
+        ],
+        "annualSunshineHours": 2506.9
+    },
+    {
+        "country": "Venezuela",
+        "city": "Maracaibo",
+        "monthlySunshineHours": [
+            300.0,
+            279.0,
+            286.0,
+            257.0,
+            243.0,
+            253.0,
+            301.0,
+            279.0,
+            272.5,
+            283.0,
+            258.0,
+            273.0
+        ],
+        "annualSunshineHours": 3284.2
+    },
+    {
+        "country": "Venezuela",
+        "city": "Maracay",
+        "monthlySunshineHours": [
+            279.2,
+            268.8,
+            288.3,
+            225.0,
+            207.7,
+            201.0,
+            220.1,
+            229.4,
+            228.0,
+            235.6,
+            246.0,
+            269.7
+        ],
+        "annualSunshineHours": 2904.8
+    },
+    {
+        "country": "Venezuela",
+        "city": "Ciudad Bolivar",
+        "monthlySunshineHours": [
+            248.0,
+            235.2,
+            263.5,
+            234.0,
+            226.3,
+            201.0,
+            232.5,
+            248.0,
+            252.0,
+            260.4,
+            249.0,
+            244.9
+        ],
+        "annualSunshineHours": 2894.8
+    },
+    {
+        "country": "Australia",
+        "city": "Tennant Creek",
+        "monthlySunshineHours": [
+            285.2,
+            257.1,
+            285.2,
+            294.0,
+            300.7,
+            294.0,
+            316.2,
+            328.6,
+            306.0,
+            313.1,
+            294.0,
+            291.4
+        ],
+        "annualSunshineHours": 3565.5
+    },
+    {
+        "country": "Australia",
+        "city": "Oodnadatta",
+        "monthlySunshineHours": [
+            337.9,
+            315.0,
+            313.1,
+            273.0,
+            244.9,
+            231.0,
+            254.2,
+            275.9,
+            291.0,
+            316.2,
+            321.0,
+            341.0
+        ],
+        "annualSunshineHours": 3514.2
+    },
+    {
+        "country": "Australia",
+        "city": "Broome",
+        "monthlySunshineHours": [
+            257.3,
+            212.8,
+            263.5,
+            294.0,
+            291.4,
+            282.0,
+            306.9,
+            325.5,
+            312.0,
+            337.9,
+            336.0,
+            291.4
+        ],
+        "annualSunshineHours": 3510.7
+    },
+    {
+        "country": "Australia",
+        "city": "Alice Springs",
+        "monthlySunshineHours": [
+            306.0,
+            276.8,
+            300.7,
+            285.0,
+            263.5,
+            252.0,
+            282.1,
+            306.9,
+            300.0,
+            313.1,
+            303.0,
+            310.0
+        ],
+        "annualSunshineHours": 3499.1
+    },
+    {
+        "country": "Australia",
+        "city": "Perth",
+        "monthlySunshineHours": [
+            356.5,
+            314.9,
+            295.5,
+            246.0,
+            211.7,
+            180.6,
+            188.4,
+            219.8,
+            232.4,
+            299.8,
+            320.4,
+            359.4
+        ],
+        "annualSunshineHours": 3229.5
+    },
+    {
+        "country": "Australia",
+        "city": "Townsville",
+        "monthlySunshineHours": [
+            254.2,
+            211.9,
+            244.9,
+            243.9,
+            244.9,
+            231.0,
+            263.5,
+            279.0,
+            291.0,
+            306.9,
+            291.0,
+            288.3
+        ],
+        "annualSunshineHours": 3141.1
+    },
+    {
+        "country": "Australia",
+        "city": "Darwin",
+        "monthlySunshineHours": [
+            176.7,
+            162.4,
+            210.8,
+            261.0,
+            297.6,
+            297.0,
+            313.1,
+            319.3,
+            297.0,
+            291.4,
+            252.0,
+            213.9
+        ],
+        "annualSunshineHours": 3092.2
+    },
+    {
+        "country": "Australia",
+        "city": "Brisbane",
+        "monthlySunshineHours": [
+            263.5,
+            223.2,
+            232.5,
+            234.0,
+            235.6,
+            198.0,
+            238.7,
+            266.6,
+            270.0,
+            275.9,
+            270.0,
+            265.4
+        ],
+        "annualSunshineHours": 2968.4
+    },
+    {
+        "country": "Australia",
+        "city": "Canberra",
+        "monthlySunshineHours": [
+            294.5,
+            254.3,
+            251.1,
+            219.0,
+            186.0,
+            156.0,
+            179.8,
+            217.0,
+            231.0,
+            266.6,
+            267.0,
+            291.4
+        ],
+        "annualSunshineHours": 2813.7
+    },
+    {
+        "country": "Australia",
+        "city": "Adelaide",
+        "monthlySunshineHours": [
+            325.5,
+            285.3,
+            266.6,
+            219.0,
+            167.4,
+            138.0,
+            148.8,
+            186.0,
+            204.0,
+            257.3,
+            273.0,
+            294.5
+        ],
+        "annualSunshineHours": 2765.4
+    },
+    {
+        "country": "Australia",
+        "city": "Cairns",
+        "monthlySunshineHours": [
+            210.8,
+            173.6,
+            201.5,
+            204.0,
+            210.8,
+            216.0,
+            229.4,
+            251.1,
+            261.0,
+            272.8,
+            255.0,
+            232.5
+        ],
+        "annualSunshineHours": 2718.5
+    },
+    {
+        "country": "Australia",
+        "city": "Launceston",
+        "monthlySunshineHours": [
+            285.2,
+            256.9,
+            241.8,
+            198.0,
+            155.0,
+            135.0,
+            142.6,
+            170.5,
+            201.0,
+            254.2,
+            267.0,
+            282.1
+        ],
+        "annualSunshineHours": 2589.3
+    },
+    {
+        "country": "Australia",
+        "city": "Norfolk Island",
+        "monthlySunshineHours": [
+            238.7,
+            203.4,
+            204.6,
+            198.0,
+            189.1,
+            168.0,
+            186.0,
+            223.2,
+            219.0,
+            241.8,
+            249.0,
+            241.8
+        ],
+        "annualSunshineHours": 2556.8
+    },
+    {
+        "country": "Australia",
+        "city": "Sydney",
+        "monthlySunshineHours": [
+            220.1,
+            189.3,
+            198.4,
+            192.0,
+            182.9,
+            165.0,
+            198.4,
+            213.0,
+            223.2,
+            216.0,
+            241.8,
+            228.0
+        ],
+        "annualSunshineHours": 2468.1
+    },
+    {
+        "country": "Papua New Guinea",
+        "city": "Port Moresby",
+        "monthlySunshineHours": [
+            182.0,
+            158.0,
+            184.0,
+            200.0,
+            211.0,
+            200.0,
+            203.0,
+            222.0,
+            213.0,
+            231.0,
+            243.0,
+            216.0
+        ],
+        "annualSunshineHours": 2463.0
+    },
+    {
+        "country": "Australia",
+        "city": "Hobart",
+        "monthlySunshineHours": [
+            257.3,
+            226.0,
+            210.8,
+            177.0,
+            148.8,
+            132.0,
+            151.9,
+            179.8,
+            195.3,
+            232.5,
+            234.0,
+            248.0
+        ],
+        "annualSunshineHours": 2393.1
+    },
+    {
+        "country": "Australia",
+        "city": "Melbourne",
+        "monthlySunshineHours": [
+            266.6,
+            228.8,
+            223.2,
+            186.0,
+            142.6,
+            120.0,
+            136.4,
+            164.3,
+            183.0,
+            223.2,
+            225.0,
+            263.5
+        ],
+        "annualSunshineHours": 2362.6
+    },
+    {
+        "country": "Solomon Islands",
+        "city": "Honiara",
+        "monthlySunshineHours": [
+            186.0,
+            155.4,
+            198.4,
+            192.0,
+            210.8,
+            198.0,
+            186.0,
+            204.6,
+            192.0,
+            226.3,
+            216.0,
+            164.3
+        ],
+        "annualSunshineHours": 2330.0
+    },
+    {
+        "country": "New Zealand",
+        "city": "Christchurch",
+        "monthlySunshineHours": [
+            224.4,
+            190.5,
+            177.4,
+            155.6,
+            133.3,
+            117.7,
+            124.8,
+            149.0,
+            166.6,
+            201.3,
+            215.3,
+            214.3
+        ],
+        "annualSunshineHours": 2070.2
+    },
+    {
+        "country": "New Zealand",
+        "city": "Wellington",
+        "monthlySunshineHours": [
+            240.3,
+            205.0,
+            194.7,
+            153.8,
+            126.0,
+            102.3,
+            111.4,
+            137.2,
+            163.2,
+            191.1,
+            210.8,
+            222.9
+        ],
+        "annualSunshineHours": 2058.7
+    },
+    {
+        "country": "New Zealand",
+        "city": "Hamilton",
+        "monthlySunshineHours": [
+            229.8,
+            192.9,
+            193.3,
+            165.1,
+            138.3,
+            112.8,
+            126.4,
+            144.1,
+            147.5,
+            174.8,
+            187.1,
+            207.6
+        ],
+        "annualSunshineHours": 2019.6
+    },
+    {
+        "country": "New Zealand",
+        "city": "Auckland",
+        "monthlySunshineHours": [
+            228.8,
+            194.9,
+            189.2,
+            157.3,
+            139.8,
+            110.3,
+            128.1,
+            142.9,
+            148.6,
+            178.1,
+            188.1,
+            197.2
+        ],
+        "annualSunshineHours": 2003.1
+    },
+    {
+        "country": "New Zealand",
+        "city": "Dunedin",
+        "monthlySunshineHours": [
+            179.6,
+            158.0,
+            146.1,
+            125.9,
+            108.4,
+            95.3,
+            110.6,
+            122.2,
+            136.8,
+            165.5,
+            166.9,
+            168.3
+        ],
+        "annualSunshineHours": 1683.7
+    },
+    {
+        "country": "Fiji",
+        "city": "Suva",
+        "monthlySunshineHours": [
+            192.2,
+            178.0,
+            170.5,
+            153.0,
+            145.7,
+            141.0,
+            136.4,
+            142.6,
+            135.0,
+            164.3,
+            168.0,
+            195.3
+        ],
+        "annualSunshineHours": 1922.0
+    },
+    {
+        "country": "USA(American Samoa)",
+        "city": "Pago Pago",
+        "monthlySunshineHours": [
+            165.3,
+            150.3,
+            179.2,
+            132.2,
+            123.3,
+            113.7,
+            148.0,
+            168.0,
+            135.0,
+            196.0,
+            159.6,
+            156.8
+        ],
+        "annualSunshineHours": 1849.1
+    }
+]

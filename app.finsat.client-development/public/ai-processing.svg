@@ -1,0 +1,53 @@
+
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .orbit {
+      transform-origin: 60px 60px;
+      animation: spin 2s linear infinite;
+    }
+    .trail {
+      opacity: 0.3;
+    }
+    .trail2 {
+      opacity: 0.15;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Centerpiece (AI Chip) -->
+  <rect x="45" y="45" width="30" height="30" rx="5" fill="none" stroke="#36EBC4" stroke-width="2"/>
+  <text x="60" y="65" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#36EBC4">AI</text>
+
+  <!-- Orbiting Dots -->
+  <g class="orbit">
+    <!-- Main dots -->
+    <circle cx="60" cy="20" r="4" fill="#36EBC4" />
+    <circle cx="100" cy="60" r="4" fill="#36EBC4" />
+    <circle cx="60" cy="100" r="4" fill="#36EBC4" />
+    <circle cx="20" cy="60" r="4" fill="#36EBC4" />
+
+    <!-- Trail layer 1 -->
+    <g class="trail" transform="rotate(-10,60,60)">
+      <circle cx="60" cy="20" r="4" fill="#36EBC4" />
+      <circle cx="100" cy="60" r="4" fill="#36EBC4" />
+      <circle cx="60" cy="100" r="4" fill="#36EBC4" />
+      <circle cx="20" cy="60" r="4" fill="#36EBC4" />
+    </g>
+
+    <!-- Trail layer 2 -->
+    <g class="trail2" transform="rotate(-20,60,60)">
+      <circle cx="60" cy="20" r="4" fill="#36EBC4" />
+      <circle cx="100" cy="60" r="4" fill="#36EBC4" />
+      <circle cx="60" cy="100" r="4" fill="#36EBC4" />
+      <circle cx="20" cy="60" r="4" fill="#36EBC4" />
+    </g>
+  </g>
+
+  <!-- Label -->
+  <text x="60" y="115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#36EBC4">
+    AI Processing...
+  </text>
+</svg>

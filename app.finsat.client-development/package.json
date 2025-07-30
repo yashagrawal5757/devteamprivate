@@ -1,0 +1,81 @@
+{
+    "name": "app.finsat.client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@babylonjs/core": "^7.24.0",
+        "@craco/craco": "^7.1.0",
+        "@fontsource/montserrat": "^5.0.19",
+        "@hookform/resolvers": "^3.9.0",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@turf/turf": "^7.2.0",
+        "@types/react-router-dom": "^5.3.3",
+        "antd": "^5.24.0",
+        "apexcharts": "^3.51.0",
+        "axios": "^1.7.2",
+        "cesium": "^1.120.0",
+        "concaveman": "^1.2.1",
+        "craco-cesium": "^1.2.0",
+        "fast-xml-parser": "^5.0.9",
+        "i18next": "^23.14.0",
+        "lodash": "^4.17.21",
+        "marchingsquares": "^1.3.3",
+        "npyjs": "^0.7.0",
+        "onnxruntime-web": "^1.22.0",
+        "osmtogeojson": "^3.0.0-beta.5",
+        "react": "^18.3.1",
+        "react-apexcharts": "^1.4.1",
+        "react-dom": "^18.3.1",
+        "react-hook-form": "^7.52.1",
+        "react-i18next": "^14.1.2",
+        "react-icons": "^5.2.1",
+        "react-markdown": "^10.1.0",
+        "react-router-dom": "^6.24.1",
+        "react-scripts": "5.0.1",
+        "resium": "^1.18.1",
+        "web-vitals": "^2.1.4",
+        "yup": "^1.4.0"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject",
+        "prettier-format": "prettier --config .prettierrc 'src/**/*.{ts,tsx}' --write",
+        "generate-bom": "cyclonedx-bom -o bom.json"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "overrides": {
+        "typescript": "^5.5.3"
+    },
+    "devDependencies": {
+        "@cyclonedx/bom": "^4.1.0",
+        "@types/lodash": "^4.17.10",
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@types/uuid": "^10.0.0",
+        "@types/xml2js": "^0.4.14",
+        "prettier": "^3.3.3",
+        "tailwindcss": "^3.4.4",
+        "typescript": "^5.5.3"
+    }
+}
